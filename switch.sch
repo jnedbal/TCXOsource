@@ -1,0 +1,319 @@
+EESchema Schematic File Version 4
+LIBS:TCXOsource-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title "TCXO clock source"
+Date "2019-06-16"
+Rev "1.1"
+Comp "King's College London"
+Comment1 "CC-BY-SA"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 6450 2500 2    60   Output ~ 0
+POWER_ON
+Wire Wire Line
+	5000 3650 5000 3750
+$Comp
+L power:GND #PWR?
+U 1 1 5D0ACEE7
+P 5000 3750
+AR Path="/5D0ACEE7" Ref="#PWR?"  Part="1" 
+AR Path="/5D0691D6/5D0ACEE7" Ref="#PWR0312"  Part="1" 
+F 0 "#PWR0312" H 5000 3500 50  0001 C CNN
+F 1 "GND" H 5005 3577 50  0000 C CNN
+F 2 "" H 5000 3750 50  0001 C CNN
+F 3 "" H 5000 3750 50  0001 C CNN
+	1    5000 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2600 5400 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5D0B87CD
+P 5400 2650
+AR Path="/5D0B87CD" Ref="#PWR?"  Part="1" 
+AR Path="/5D0691D6/5D0B87CD" Ref="#PWR0314"  Part="1" 
+F 0 "#PWR0314" H 5400 2400 50  0001 C CNN
+F 1 "GND" H 5400 2500 50  0000 C CNN
+F 2 "" H 5400 2650 50  0001 C CNN
+F 3 "" H 5400 2650 50  0001 C CNN
+	1    5400 2650
+	1    0    0    -1  
+$EndComp
+Text HLabel 3000 2100 0    60   Input ~ 0
+SWITCH1
+$Comp
+L Device:R R?
+U 1 1 5D05049A
+P 4550 2100
+AR Path="/5D05049A" Ref="R?"  Part="1" 
+AR Path="/5CFE6EE5/5D05049A" Ref="R?"  Part="1" 
+AR Path="/5D0691D6/5D05049A" Ref="R301"  Part="1" 
+F 0 "R301" V 4450 2100 50  0000 C CNN
+F 1 "100k" V 4550 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 2100 50  0001 C CNN
+F 3 "" H 4550 2100 50  0000 C CNN
+F 4 "MCWR06X1003FTL" H 4550 2100 60  0001 C CNN "Part Number"
+F 5 "Multicomp" H 4550 2100 60  0001 C CNN "Manufacturer"
+F 6 "0603" H 4550 2100 60  0001 C CNN "Package"
+F 7 "Farnell" H 4550 2100 60  0001 C CNN "Supplier"
+F 8 "2447226" H 4550 2100 60  0001 C CNN "Order Code"
+F 9 "100kΩ/1% 0603 resistor" H 4550 2100 60  0001 C CNN "Note"
+F 10 "0.01" H 4550 2100 60  0001 C CNN "Price"
+F 11 "Seeed OPL" H 4550 2100 50  0001 C CNN "Alt. Supplier"
+F 12 "301010196" H 4550 2100 50  0001 C CNN "Alt. Order Code"
+	1    4550 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D068361
+P 5000 3500
+AR Path="/5CFAE850/5D068361" Ref="C?"  Part="1" 
+AR Path="/5D0691D6/5D068361" Ref="C303"  Part="1" 
+F 0 "C303" H 4885 3454 50  0000 R CNN
+F 1 "100n" H 4885 3545 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5038 3350 50  0001 C CNN
+F 3 "~" H 5000 3500 50  0001 C CNN
+F 4 "MC0603B104K500" H 5000 3500 50  0001 C CNN "Part Number"
+F 5 "Multicomp" H 5000 3500 50  0001 C CNN "Manufacturer"
+F 6 "0603" H 5000 3500 50  0001 C CNN "Package"
+F 7 "Farnell" H 5000 3500 50  0001 C CNN "Supplier"
+F 8 "1759122" H 5000 3500 50  0001 C CNN "Order Code"
+F 9 "100nF/50V X7R 0603 ceramic capacitor" H 5000 3500 50  0001 C CNN "Note"
+F 10 "Seeed OPL" H 5000 3500 50  0001 C CNN "Alt. Supplier"
+F 11 "302010138" H 5000 3500 50  0001 C CNN "Alt. Order Code"
+	1    5000 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 3350 5000 3250
+Wire Wire Line
+	4150 1750 4150 1700
+$Comp
+L power:+BATT #PWR0107
+U 1 1 5CFDA26A
+P 5000 3250
+F 0 "#PWR0107" H 5000 3100 50  0001 C CNN
+F 1 "+BATT" H 5015 3423 50  0000 C CNN
+F 2 "" H 5000 3250 50  0001 C CNN
+F 3 "" H 5000 3250 50  0001 C CNN
+	1    5000 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2400 5400 2350
+$Comp
+L power:+BATT #PWR0109
+U 1 1 5CFE9CE3
+P 5400 2350
+F 0 "#PWR0109" H 5400 2200 50  0001 C CNN
+F 1 "+BATT" H 5400 2500 50  0000 C CNN
+F 2 "" H 5400 2350 50  0001 C CNN
+F 3 "" H 5400 2350 50  0001 C CNN
+	1    5400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0114
+U 1 1 5CFF5C5E
+P 4150 1600
+F 0 "#PWR0114" H 4150 1450 50  0001 C CNN
+F 1 "+BATT" H 4165 1773 50  0000 C CNN
+F 2 "" H 4150 1600 50  0001 C CNN
+F 3 "" H 4150 1600 50  0001 C CNN
+	1    4150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC2G04 U301
+U 1 1 5D1B99A9
+P 4600 2500
+F 0 "U301" H 4650 2600 50  0000 L CNN
+F 1 "LVC2G04" H 4650 2400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4600 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 4600 2500 50  0001 C CNN
+F 4 "SN74LVC2G04DBVR" H 4600 2500 50  0001 C CNN "Part Number"
+F 5 "Texas Instruments" H 4600 2500 50  0001 C CNN "Manufacturer"
+F 6 "SOT-23-6" H 4600 2500 50  0001 C CNN "Package"
+F 7 "Farnell" H 4600 2500 50  0001 C CNN "Supplier"
+F 8 "1287594" H 4600 2500 50  0001 C CNN "Order Code"
+F 9 "Dual Inverter Gate" H 4600 2500 50  0001 C CNN "Note"
+	1    4600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D1BD563
+P 3750 1900
+AR Path="/5CFAE850/5D1BD563" Ref="C?"  Part="1" 
+AR Path="/5D1BD563" Ref="C?"  Part="1" 
+AR Path="/5CFE6EE5/5D1BD563" Ref="C?"  Part="1" 
+AR Path="/5D0691D6/5D1BD563" Ref="C301"  Part="1" 
+F 0 "C301" H 3865 1946 50  0000 L CNN
+F 1 "1uF" H 3865 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3788 1750 50  0001 C CNN
+F 3 "~" H 3750 1900 50  0001 C CNN
+F 4 "CGA3E1X7R1C105M080AC" H 3750 1900 50  0001 C CNN "Part Number"
+F 5 "TDK" H 3750 1900 50  0001 C CNN "Manufacturer"
+F 6 "0603" H 3750 1900 50  0001 C CNN "Package"
+F 7 "Farnell" H 3750 1900 50  0001 C CNN "Supplier"
+F 8 "2768390" H 3750 1900 50  0001 C CNN "Order Code"
+F 9 "1μF/16V 0603 X7R capacitor" H 3750 1900 50  0001 C CNN "Note"
+F 10 "Seeed OPL" H 3750 1900 50  0001 C CNN "Alt. Supplier"
+F 11 "302010139" H 3750 1900 50  0001 C CNN "Alt. Order Code"
+	1    3750 1900
+	1    0    0    -1  
+$EndComp
+Text HLabel 3000 2500 0    60   Input ~ 0
+SWITCH2
+Wire Wire Line
+	3750 2100 3750 2050
+Wire Wire Line
+	4150 1700 3750 1700
+Wire Wire Line
+	3750 1700 3750 1750
+Connection ~ 4150 1700
+Wire Wire Line
+	4150 1700 4150 1600
+Wire Wire Line
+	3000 2100 3750 2100
+Wire Wire Line
+	3000 2500 4150 2500
+Wire Wire Line
+	4150 2500 4150 2050
+Wire Wire Line
+	4300 2500 4150 2500
+Connection ~ 4150 2500
+Wire Wire Line
+	3750 2100 4400 2100
+Connection ~ 3750 2100
+Wire Wire Line
+	4700 2100 5000 2100
+Wire Wire Line
+	5000 2100 5000 2500
+Wire Wire Line
+	5000 2500 4850 2500
+$Comp
+L 74xGxx:74LVC2G04 U301
+U 2 1 5D1D720A
+P 5400 2500
+F 0 "U301" H 5450 2600 50  0000 L CNN
+F 1 "LVC2G04" H 5450 2400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5400 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5400 2500 50  0001 C CNN
+F 4 "Dual Inverter Gate" H 5400 2500 50  0001 C CNN "Note"
+F 5 "SN74LVC2G04DBVR" H 5400 2500 50  0001 C CNN "Part Number"
+F 6 "Texas Instruments" H 5400 2500 50  0001 C CNN "Manufacturer"
+F 7 "SOT-23-6" H 5400 2500 50  0001 C CNN "Package"
+F 8 "Farnell" H 5400 2500 50  0001 C CNN "Supplier"
+F 9 "1287594" H 5400 2500 50  0001 C CNN "Order Code"
+	2    5400 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2500 5100 2500
+Connection ~ 5000 2500
+$Comp
+L Device:R R?
+U 1 1 5D1D9685
+P 4550 2900
+AR Path="/5D1D9685" Ref="R?"  Part="1" 
+AR Path="/5CFE6EE5/5D1D9685" Ref="R?"  Part="1" 
+AR Path="/5D0691D6/5D1D9685" Ref="R302"  Part="1" 
+F 0 "R302" V 4450 2900 50  0000 C CNN
+F 1 "100k" V 4550 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 2900 50  0001 C CNN
+F 3 "" H 4550 2900 50  0000 C CNN
+F 4 "MCWR06X1003FTL" H 4550 2900 60  0001 C CNN "Part Number"
+F 5 "Multicomp" H 4550 2900 60  0001 C CNN "Manufacturer"
+F 6 "0603" H 4550 2900 60  0001 C CNN "Package"
+F 7 "Farnell" H 4550 2900 60  0001 C CNN "Supplier"
+F 8 "2447226" H 4550 2900 60  0001 C CNN "Order Code"
+F 9 "100kΩ/1% 0603 resistor" H 4550 2900 60  0001 C CNN "Note"
+F 10 "0.01" H 4550 2900 60  0001 C CNN "Price"
+F 11 "Seeed OPL" H 4550 2900 50  0001 C CNN "Alt. Supplier"
+F 12 "301010196" H 4550 2900 50  0001 C CNN "Alt. Order Code"
+	1    4550 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 2500 5800 2500
+Wire Wire Line
+	5800 2500 5800 2900
+Wire Wire Line
+	5800 2900 4700 2900
+Wire Wire Line
+	4400 2900 4150 2900
+Wire Wire Line
+	4150 2900 4150 2500
+Wire Wire Line
+	6450 2500 5800 2500
+Connection ~ 5800 2500
+Connection ~ 4150 2900
+Wire Wire Line
+	3750 2900 3650 2900
+Wire Wire Line
+	3650 2900 3650 2800
+$Comp
+L power:+5V #PWR0101
+U 1 1 5D04F37C
+P 3650 2800
+F 0 "#PWR0101" H 3650 2650 50  0001 C CNN
+F 1 "+5V" H 3665 2973 50  0000 C CNN
+F 2 "" H 3650 2800 50  0001 C CNN
+F 3 "" H 3650 2800 50  0001 C CNN
+	1    3650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D301
+U 1 1 5D059F4E
+P 3900 2900
+F 0 "D301" H 3900 2800 50  0000 C CNN
+F 1 "BAS16" H 3900 3000 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3900 2900 50  0001 C CNN
+F 3 "~" H 3900 2900 50  0001 C CNN
+F 4 "BAS16HT1G" H 3900 2900 50  0001 C CNN "Part Number"
+F 5 "On Semiconductor" H 3900 2900 50  0001 C CNN "Manufacturer"
+F 6 "SOD-323" H 3900 2900 50  0001 C CNN "Package"
+F 7 "Farnell" H 3900 2900 50  0001 C CNN "Supplier"
+F 8 "1459029" H 3900 2900 50  0001 C CNN "Order Code"
+F 9 "Small Signal Diode 200mA 85V" H 3900 2900 50  0001 C CNN "Note"
+	1    3900 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 2900 4150 2900
+Text Notes 3350 4550 0    60   ~ 0
+Toggle on-of switch\nStarts off (high) when first powered\nKept allways off (high), when 5 V from USB is present
+$Comp
+L Device:C C?
+U 1 1 5D1C027C
+P 4150 1900
+AR Path="/5D1C027C" Ref="C?"  Part="1" 
+AR Path="/5CFE6EE5/5D1C027C" Ref="C?"  Part="1" 
+AR Path="/5D0691D6/5D1C027C" Ref="C302"  Part="1" 
+F 0 "C302" H 4250 1950 50  0000 L CNN
+F 1 "10n" H 4250 1850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4188 1750 50  0001 C CNN
+F 3 "" H 4150 1900 50  0000 C CNN
+F 4 "MCU0603R103KCT" H 4150 1900 60  0001 C CNN "Part Number"
+F 5 "Multicomp" H 4150 1900 60  0001 C CNN "Manufacturer"
+F 6 "0603" H 4150 1900 60  0001 C CNN "Package"
+F 7 "Farnell" H 4150 1900 60  0001 C CNN "Supplier"
+F 8 "9406182" H 4150 1900 60  0001 C CNN "Order Code"
+F 9 "10nF/50V X7R 0603 ceramic capacitor" H 4150 1900 60  0001 C CNN "Note"
+F 10 "0.01" H 4150 1900 60  0001 C CNN "Price"
+F 11 "Seeed OPL" H 4150 1900 50  0001 C CNN "Alt. Supplier"
+F 12 "302010140" H 4150 1900 50  0001 C CNN "Alt. Order Code"
+	1    4150 1900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

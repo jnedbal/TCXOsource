@@ -1,0 +1,2043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jakub/KiCAD/TCXOsource_v1-1/TCXOsource.sch</source>
+    <date>Sun 16 Jun 2019 18:55:07 BST</date>
+    <tool>Eeschema 5.1.2-f72e74a~84~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>TCXO clock source</title>
+        <company>King's College London</company>
+        <rev>1.1</rev>
+        <date>2019-06-16</date>
+        <source>TCXOsource.sch</source>
+        <comment number="1" value="CC-BY-SA"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/TCXO/" tstamps="/5CFAE850/">
+      <title_block>
+        <title>TCXO clock source</title>
+        <company>King's College London</company>
+        <rev>1.1</rev>
+        <date>2019-06-16</date>
+        <source>TCXO.sch</source>
+        <comment number="1" value="CC-BY-SA"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/switch/" tstamps="/5D0691D6/">
+      <title_block>
+        <title>TCXO clock source</title>
+        <company>King's College London</company>
+        <rev>1.1</rev>
+        <date>2019-06-16</date>
+        <source>switch.sch</source>
+        <comment number="1" value="CC-BY-SA"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/">
+      <title_block>
+        <title>TCXO clock source</title>
+        <company>King's College London</company>
+        <rev>1.1</rev>
+        <date>2019-06-16</date>
+        <source>charger.sch</source>
+        <comment number="1" value="CC-BY-SA"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P101">
+      <value>USB_A</value>
+      <footprint>jakub:Molex_USB_A</footprint>
+      <fields>
+        <field name="Manufacturer">Molex</field>
+        <field name="Note">USB shielded I/O plug type A right angle through hole</field>
+        <field name="Order Code">2067044</field>
+        <field name="Package">USB-A plug</field>
+        <field name="Part Number">48037-0001</field>
+        <field name="Price">0.52</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Connector" part="USB_A" description="USB Type A connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4D1381</tstamp>
+    </comp>
+    <comp ref="BT101">
+      <value>3.7V/2Ah</value>
+      <footprint>jakub:MIKROE-1120</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2369105.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">MikroElektronika</field>
+        <field name="Note">2 Ah Li-ion polymer battery</field>
+        <field name="Order Code">2786900</field>
+        <field name="Package">63x44</field>
+        <field name="Part Number">MIKROE-1120</field>
+        <field name="Price">11.53</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8FFA43</tstamp>
+    </comp>
+    <comp ref="P102">
+      <value>SH2M</value>
+      <footprint>Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">820-1582</field>
+        <field name="Alt. Supplier">RS Components</field>
+        <field name="Manufacturer">JST</field>
+        <field name="Note">2-way XH connector 2.5mm pitch crimp style</field>
+        <field name="Order Code">1516289</field>
+        <field name="Package">2.5mm pitch</field>
+        <field name="Part Number">S2B-XH-A(LF)(SN)</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D12F0AA</tstamp>
+    </comp>
+    <comp ref="P103">
+      <value>SMA</value>
+      <footprint>jakub:SMA</footprint>
+      <fields>
+        <field name="Manufacturer">Molex</field>
+        <field name="Note">SMA RF Coaxial Connector Right Angle</field>
+        <field name="Order Code">2293854</field>
+        <field name="Package">SMA R/A</field>
+        <field name="Part Number">73251-2200</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="jakub" part="SMA" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D309761</tstamp>
+    </comp>
+    <comp ref="SW101">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H13mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">TE Connectivity</field>
+        <field name="Note">Tactile Switch 9.4 mm button actuator</field>
+        <field name="Order Code">2533101</field>
+        <field name="Package">6x6 mm</field>
+        <field name="Part Number">2-1825910-7</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D006BEA</tstamp>
+    </comp>
+    <comp ref="H101">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D31CED1</tstamp>
+    </comp>
+    <comp ref="H102">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D31D9E2</tstamp>
+    </comp>
+    <comp ref="H103">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D31DCB8</tstamp>
+    </comp>
+    <comp ref="X201">
+      <value>40.0 MHz</value>
+      <footprint>Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm_HandSoldering</footprint>
+      <datasheet>https://support.epson.biz/td/api/doc_check.php?mode=dl&amp;lang=en&amp;Parts=SG-8002DC</datasheet>
+      <fields>
+        <field name="Manufacturer">ILSI America</field>
+        <field name="Note">40.0 MHz TCXO oscillator</field>
+        <field name="Order Code">2509375</field>
+        <field name="Package">SMD 3.2x2.5</field>
+        <field name="Part Number">I537-2P3-40.0000MHZ</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Oscillator" part="SG-8002CA" description="CMOS Clock Oscillator"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D0A2A91</tstamp>
+    </comp>
+    <comp ref="U203">
+      <value>AUC1G04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Note">Single Inverter Gate</field>
+        <field name="Order Code">2334905</field>
+        <field name="Package">SC-70-5</field>
+        <field name="Part Number">SN74AUC1G04DCKR</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="jakub" part="74AUC1G04" description=""/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D338B0C</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+        <field name="Order Code">1759122</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MC0603B104K500</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D07AD85</tstamp>
+    </comp>
+    <comp ref="C207">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Alt. Order Code">302010140</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">10nF/50V X7R 0603 ceramic capacitor</field>
+        <field name="Order Code">9406182</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MCU0603R103KCT</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D0B54D8</tstamp>
+    </comp>
+    <comp ref="C208">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Alt. Order Code">302010140</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">10nF/50V X7R 0603 ceramic capacitor</field>
+        <field name="Order Code">9406182</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MCU0603R103KCT</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D0B5C2F</tstamp>
+    </comp>
+    <comp ref="C205">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Note">1nF/50V C0G/NP0 0402 ceramic capacitor</field>
+        <field name="Order Code">8819556</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">GRM1555C1H102JA01D</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D0E06E8</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>470k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Alt. Order Code">301010190</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">470kΩ/1% 0603 resistor</field>
+        <field name="Order Code">2073512</field>
+        <field name="Package">0603</field>
+        <field name="Part Number"> MCMR06X4703FTL</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D113014</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>470k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Alt. Order Code">301010190</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">470kΩ/1% 0603 resistor</field>
+        <field name="Order Code">2073512</field>
+        <field name="Package">0603</field>
+        <field name="Part Number"> MCMR06X4703FTL</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D1207B5</tstamp>
+    </comp>
+    <comp ref="R206">
+      <value>300R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">300Ω/1% 0402 resistor</field>
+        <field name="Order Code">2447155</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">MCWR04X3000FTL</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D111077</tstamp>
+    </comp>
+    <comp ref="R205">
+      <value>300R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">300Ω/1% 0402 resistor</field>
+        <field name="Order Code">2447155</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">MCWR04X3000FTL</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D105696</tstamp>
+    </comp>
+    <comp ref="R204">
+      <value>300R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">300Ω/1% 0402 resistor</field>
+        <field name="Order Code">2447155</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">MCWR04X3000FTL</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D0F9CE7</tstamp>
+    </comp>
+    <comp ref="C211">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">302010139</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Note">1μF/16V 0603 X7R capacitor</field>
+        <field name="Order Code">2768390</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">CGA3E1X7R1C105M080AC</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D09C250</tstamp>
+    </comp>
+    <comp ref="U205">
+      <value>AUC2G04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Note">Dual Inverter Gate</field>
+        <field name="Order Code">1606290</field>
+        <field name="Package">SC-70-6</field>
+        <field name="Part Number">SN74AUC2G04DCKR</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="jakub" part="74AUC2G04" description="Dual NOT Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D047FB4</tstamp>
+    </comp>
+    <comp ref="U204">
+      <value>AUC2G04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Note">Dual Inverter Gate</field>
+        <field name="Order Code">1606290</field>
+        <field name="Package">SC-70-6</field>
+        <field name="Part Number">SN74AUC2G04DCKR</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="jakub" part="74AUC2G04" description="Dual NOT Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D0469DE</tstamp>
+    </comp>
+    <comp ref="C210">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Note">1nF/50V C0G/NP0 0402 ceramic capacitor</field>
+        <field name="Order Code">8819556</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">GRM1555C1H102JA01D</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D0F1674</tstamp>
+    </comp>
+    <comp ref="C217">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Note">1nF/50V C0G/NP0 0402 ceramic capacitor</field>
+        <field name="Order Code">8819556</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">GRM1555C1H102JA01D</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D0F09AF</tstamp>
+    </comp>
+    <comp ref="C215">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Note">1nF/50V C0G/NP0 0402 ceramic capacitor</field>
+        <field name="Order Code">8819556</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">GRM1555C1H102JA01D</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D0EFFAF</tstamp>
+    </comp>
+    <comp ref="C213">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+        <field name="Order Code">1759122</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MC0603B104K500</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D0A4D5E</tstamp>
+    </comp>
+    <comp ref="C216">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+        <field name="Order Code">1759122</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MC0603B104K500</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D0A484B</tstamp>
+    </comp>
+    <comp ref="C209">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+        <field name="Order Code">1759122</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MC0603B104K500</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D0A3281</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>300R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">300Ω/1% 0402 resistor</field>
+        <field name="Order Code">2447155</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">MCWR04X3000FTL</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D29824E</tstamp>
+    </comp>
+    <comp ref="U202">
+      <value>LVC163</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS163</datasheet>
+      <fields>
+        <field name="Alt. Order Code">1727-3097-1-ND</field>
+        <field name="Alt. Supplier">Digi-Key</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Note">Presettable synchronous 4-bit binary counter with synchronous reset</field>
+        <field name="Order Code">771-74LVC163PW-T</field>
+        <field name="Package">TSSOP-16</field>
+        <field name="Part Number">74LVC163PW,118</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="74xx" part="74LS163" description="Synchronous 4-bit programmable binary Counter"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D061EE5</tstamp>
+    </comp>
+    <comp ref="SW201">
+      <value>SW_Rotary1x6</value>
+      <footprint>jakub:Nidec_Copal_SS-10-16</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2604296.pdf</datasheet>
+      <libsource lib="jakub" part="SW_Rotary1x6" description="rotary switch with 6 positions"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D0E4C5F</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>LVC1G80</value>
+      <footprint>Package_SO:TSOP-5_1.65x3.05mm_P0.95mm</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Note">Single D-type flip-flop positive-edge trigger</field>
+        <field name="Order Code">2445069</field>
+        <field name="Package">SC-74A</field>
+        <field name="Part Number">74LVC1G80GV,125</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="jakub" part="74LVC1G80" description="Single D Flip-Flop Inverted Output, Low-Voltage CMOS"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D0F14CE</tstamp>
+    </comp>
+    <comp ref="R208">
+      <value>300R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">300Ω/1% 0402 resistor</field>
+        <field name="Order Code">2447155</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">MCWR04X3000FTL</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D174ACB</tstamp>
+    </comp>
+    <comp ref="R207">
+      <value>300R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">300Ω/1% 0402 resistor</field>
+        <field name="Order Code">2447155</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">MCWR04X3000FTL</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D174ADB</tstamp>
+    </comp>
+    <comp ref="U206">
+      <value>AUC2G04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Note">Dual Inverter Gate</field>
+        <field name="Order Code">1606290</field>
+        <field name="Package">SC-70-6</field>
+        <field name="Part Number">SN74AUC2G04DCKR</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="jakub" part="74AUC2G04" description="Dual NOT Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D174AEB</tstamp>
+    </comp>
+    <comp ref="C221">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Note">1nF/50V C0G/NP0 0402 ceramic capacitor</field>
+        <field name="Order Code">8819556</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">GRM1555C1H102JA01D</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D174B17</tstamp>
+    </comp>
+    <comp ref="C219">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+        <field name="Order Code">1759122</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MC0603B104K500</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D174B27</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+        <field name="Order Code">1759122</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MC0603B104K500</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D222DC0</tstamp>
+    </comp>
+    <comp ref="C206">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Note">1nF/50V C0G/NP0 0402 ceramic capacitor</field>
+        <field name="Order Code">8819556</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">GRM1555C1H102JA01D</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D222DCC</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+        <field name="Order Code">1759122</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MC0603B104K500</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D2DEEAE</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Note">1nF/50V C0G/NP0 0402 ceramic capacitor</field>
+        <field name="Order Code">8819556</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">GRM1555C1H102JA01D</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D2DEEBE</tstamp>
+    </comp>
+    <comp ref="C212">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">302010139</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Note">1μF/16V 0603 X7R capacitor</field>
+        <field name="Order Code">2768390</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">CGA3E1X7R1C105M080AC</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D062B77</tstamp>
+    </comp>
+    <comp ref="C214">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Note">1nF/50V C0G/NP0 0402 ceramic capacitor</field>
+        <field name="Order Code">8819556</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">GRM1555C1H102JA01D</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D0C36BD</tstamp>
+    </comp>
+    <comp ref="C220">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Note">1nF/50V C0G/NP0 0402 ceramic capacitor</field>
+        <field name="Order Code">8819556</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">GRM1555C1H102JA01D</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D166C88</tstamp>
+    </comp>
+    <comp ref="C218">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+        <field name="Order Code">1759122</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MC0603B104K500</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D224D70</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Alt. Order Code">301010196</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">100kΩ/1% 0603 resistor</field>
+        <field name="Order Code">2447226</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MCWR06X1003FTL</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/switch/" tstamps="/5D0691D6/"/>
+      <tstamp>5D05049A</tstamp>
+    </comp>
+    <comp ref="C303">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+        <field name="Order Code">1759122</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MC0603B104K500</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/switch/" tstamps="/5D0691D6/"/>
+      <tstamp>5D068361</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>LVC2G04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Note">Dual Inverter Gate</field>
+        <field name="Order Code">1287594</field>
+        <field name="Package">SOT-23-6</field>
+        <field name="Part Number">SN74LVC2G04DBVR</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="74xGxx" part="74LVC2G04" description="Dual NOT Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/switch/" tstamps="/5D0691D6/"/>
+      <tstamp>5D1B99A9</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">302010139</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Note">1μF/16V 0603 X7R capacitor</field>
+        <field name="Order Code">2768390</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">CGA3E1X7R1C105M080AC</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/switch/" tstamps="/5D0691D6/"/>
+      <tstamp>5D1BD563</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Alt. Order Code">301010196</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">100kΩ/1% 0603 resistor</field>
+        <field name="Order Code">2447226</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MCWR06X1003FTL</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/switch/" tstamps="/5D0691D6/"/>
+      <tstamp>5D1D9685</tstamp>
+    </comp>
+    <comp ref="D301">
+      <value>BAS16</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">On Semiconductor</field>
+        <field name="Note">Small Signal Diode 200mA 85V</field>
+        <field name="Order Code">1459029</field>
+        <field name="Package">SOD-323</field>
+        <field name="Part Number">BAS16HT1G</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/switch/" tstamps="/5D0691D6/"/>
+      <tstamp>5D059F4E</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Alt. Order Code">302010140</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">10nF/50V X7R 0603 ceramic capacitor</field>
+        <field name="Order Code">9406182</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MCU0603R103KCT</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/switch/" tstamps="/5D0691D6/"/>
+      <tstamp>5D1C027C</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Note">4.7μF/16V 0603 X5R capacitor</field>
+        <field name="Order Code">2112741</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">EMK107ABJ475KA-T</field>
+        <field name="Price">0.19</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D002016</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>TLV3012</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Note">Nanopower 1.8V SOT23 comparator with voltage reference</field>
+        <field name="Order Code">2769377</field>
+        <field name="Package">SOT-23-6</field>
+        <field name="Part Number">TLV3012AIDBVR</field>
+        <field name="Price">1.74</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="jakub" part="TLV3012" description=""/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D002029</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>162k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">162kΩ/1% 0603 resistor</field>
+        <field name="Order Code">2138519</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">CRCW0603162KFKEA</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D002042</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Alt. Order Code">301010196</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">100kΩ/1% 0603 resistor</field>
+        <field name="Order Code">2447226</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MCWR06X1003FTL</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D00204F</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>470k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Alt. Order Code">301010190</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">470kΩ/1% 0603 resistor</field>
+        <field name="Order Code">2073512</field>
+        <field name="Package">0603</field>
+        <field name="Part Number"> MCMR06X4703FTL</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D0020B1</tstamp>
+    </comp>
+    <comp ref="C403">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Note">4.7μF/16V 0603 X5R capacitor</field>
+        <field name="Order Code">2112741</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">EMK107ABJ475KA-T</field>
+        <field name="Price">0.19</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D0020D0</tstamp>
+    </comp>
+    <comp ref="R407">
+      <value>1k5</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Alt. Order Code">301010189</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">1.5kΩ/1% 0603 resistor</field>
+        <field name="Order Code">2447279</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MCWR06X1501FTL</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D0020F7</tstamp>
+    </comp>
+    <comp ref="C405">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Note">4.7μF/16V 0603 X5R capacitor</field>
+        <field name="Order Code">2112741</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">EMK107ABJ475KA-T</field>
+        <field name="Price">0.19</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D002111</tstamp>
+    </comp>
+    <comp ref="D401">
+      <value>LED_R/G</value>
+      <footprint>jakub:LEDdual_3.2x2.8</footprint>
+      <fields>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Note">Red/green dual color LED</field>
+        <field name="Order Code">2322113</field>
+        <field name="Package">1210</field>
+        <field name="Part Number">150141RV73100</field>
+        <field name="Price">0.273</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="LED_Dual_AACC" description="Dual LED, cathodes on pins 3 and 4"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D002130</tstamp>
+    </comp>
+    <comp ref="D402">
+      <value>LED_R/G</value>
+      <footprint>jakub:LEDdual_3.2x2.8</footprint>
+      <fields>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Note">Red/green dual color LED</field>
+        <field name="Order Code">2322113</field>
+        <field name="Package">1210</field>
+        <field name="Part Number">150141RV73100</field>
+        <field name="Price">0.273</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="LED_Dual_AACC" description="Dual LED, cathodes on pins 3 and 4"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D00213D</tstamp>
+    </comp>
+    <comp ref="U404">
+      <value>MCP1702T-2502</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Note">2.5 V 250 mA Low Quiescent Current LDO Regulator</field>
+        <field name="Order Code">1627173</field>
+        <field name="Package">SOT-23</field>
+        <field name="Part Number">MCP1702T-2502E/CB</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="MCP1703A-2502_SOT23" description="Low Quiescent Current LDO Regulator, 2.5V, 250mA, Vin&lt;=16V, SOT-23"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D002157</tstamp>
+    </comp>
+    <comp ref="U403">
+      <value>MCP1702T-3302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Note">3.3 V 250 mA Low Quiescent Current LDO Regulator</field>
+        <field name="Order Code">1331490</field>
+        <field name="Package">SOT-23</field>
+        <field name="Part Number">MCP1702T-3302E/CB</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="MCP1703A-3302_SOT23" description="Low Quiescent Current LDO Regulator, 3.3V, 250mA, Vin&lt;=16V, SOT-23"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D002163</tstamp>
+    </comp>
+    <comp ref="C406">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">302010139</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Note">1μF/16V 0603 X7R capacitor</field>
+        <field name="Order Code">2768390</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">CGA3E1X7R1C105M080AC</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D00217D</tstamp>
+    </comp>
+    <comp ref="C408">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">302010139</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Note">1μF/16V 0603 X7R capacitor</field>
+        <field name="Order Code">2768390</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">CGA3E1X7R1C105M080AC</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D0021B8</tstamp>
+    </comp>
+    <comp ref="C404">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">302010139</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Note">1μF/16V 0603 X7R capacitor</field>
+        <field name="Order Code">2768390</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">CGA3E1X7R1C105M080AC</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D0021C4</tstamp>
+    </comp>
+    <comp ref="C407">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">302010139</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Note">1μF/16V 0603 X7R capacitor</field>
+        <field name="Order Code">2768390</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">CGA3E1X7R1C105M080AC</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D0021D0</tstamp>
+    </comp>
+    <comp ref="Q401">
+      <value>NX3008</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">305030026</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Note">30 V 230 mA P-channel Trench MOSFET</field>
+        <field name="Order Code">2069547</field>
+        <field name="Package">SOT-23</field>
+        <field name="Part Number">NX3008PBK,215</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D002201</tstamp>
+    </comp>
+    <comp ref="R409">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Alt. Order Code">301010200</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">2.2kΩ/1% 0603 resistor</field>
+        <field name="Order Code">2447320</field>
+        <field name="Package">0603</field>
+        <field name="Part Number"> MCWR06X2201FTL</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D00221F</tstamp>
+    </comp>
+    <comp ref="R408">
+      <value>1k5</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Alt. Order Code">301010189</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">1.5kΩ/1% 0603 resistor</field>
+        <field name="Order Code">2447279</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MCWR06X1501FTL</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D00222C</tstamp>
+    </comp>
+    <comp ref="R404">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Alt. Order Code">301010200</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">2.2kΩ/1% 0603 resistor</field>
+        <field name="Order Code">2447320</field>
+        <field name="Package">0603</field>
+        <field name="Part Number"> MCWR06X2201FTL</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D002246</tstamp>
+    </comp>
+    <comp ref="U402">
+      <value>MCP73831</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Note">Single-cell fully integrated Li-Ion Li-Pol charger</field>
+        <field name="Order Code">1840935</field>
+        <field name="Package">SOT-23-5</field>
+        <field name="Part Number">MCP73831T-2DCI/OT</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Battery_Management" part="MCP73831-2-OT" description="Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D33CEE8</tstamp>
+    </comp>
+    <comp ref="R405">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Alt. Order Code">301010200</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">2.2kΩ/1% 0603 resistor</field>
+        <field name="Order Code">2447320</field>
+        <field name="Package">0603</field>
+        <field name="Part Number"> MCWR06X2201FTL</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D0020EA</tstamp>
+    </comp>
+    <comp ref="R406">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Alt. Order Code">301010200</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">2.2kΩ/1% 0603 resistor</field>
+        <field name="Order Code">2447320</field>
+        <field name="Package">0603</field>
+        <field name="Part Number"> MCWR06X2201FTL</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D002239</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Alt. Supplier">Seeed OPL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+        <field name="Order Code">1759122</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MC0603B104K500</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Charger &amp; Power Supply/" tstamps="/5CFE6EE5/"/>
+      <tstamp>5D0020A3</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xGxx" part="74LVC2G04">
+      <aliases>
+        <alias>74AUC2G04</alias>
+        <alias>74LVC2GU04</alias>
+        <alias>74AUC2GU04</alias>
+      </aliases>
+      <description>Dual NOT Gate, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SG-*</fp>
+        <fp>SOT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC2G04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS161">
+      <aliases>
+        <alias>74LS160</alias>
+        <alias>74LS162</alias>
+        <alias>74LS163</alias>
+      </aliases>
+      <description>Synchronous 4-bit programmable binary Counter</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS161</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS161</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~MR" type="input"/>
+        <pin num="2" name="CP" type="input"/>
+        <pin num="3" name="D0" type="input"/>
+        <pin num="4" name="D1" type="input"/>
+        <pin num="5" name="D2" type="input"/>
+        <pin num="6" name="D3" type="input"/>
+        <pin num="7" name="CEP" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="~PE" type="input"/>
+        <pin num="10" name="CET" type="input"/>
+        <pin num="11" name="Q3" type="output"/>
+        <pin num="12" name="Q2" type="output"/>
+        <pin num="13" name="Q1" type="output"/>
+        <pin num="14" name="Q0" type="output"/>
+        <pin num="15" name="TC" type="output"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Battery_Management" part="MCP73832-2-OT">
+      <aliases>
+        <alias>MCP73832-5-OT</alias>
+        <alias>MCP73832-4-OT</alias>
+        <alias>MCP73832-3-OT</alias>
+        <alias>MCP73831-2-OT</alias>
+        <alias>MCP73831-5-OT</alias>
+        <alias>MCP73831-4-OT</alias>
+        <alias>MCP73831-3-OT</alias>
+      </aliases>
+      <description>Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Open-Drain Status Output, in SOT23-5 package</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</docs>
+      <footprints>
+        <fp>*SOT*23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73832-2-OT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_A">
+      <description>USB Type A connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Dual_AACC">
+      <description>Dual LED, cathodes on pins 3 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Dual_AACC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="input"/>
+        <pin num="2" name="A2" type="input"/>
+        <pin num="3" name="K1" type="input"/>
+        <pin num="4" name="K2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GSD">
+      <description>P-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Oscillator" part="SG-8002CA">
+      <description>CMOS Clock Oscillator</description>
+      <docs>https://support.epson.biz/td/api/doc_check.php?mode=dl&amp;lang=en&amp;Parts=SG-8002DC</docs>
+      <footprints>
+        <fp>Oscillator*SMD*SeikoEpson*SG8002CA*7.0x5.0mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SG-8002CA</field>
+        <field name="Footprint">Oscillator:Oscillator_SMD_SeikoEpson_SG8002CA-4Pin_7.0x5.0mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OE" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="MCP1703A-3302_SOT23">
+      <aliases>
+        <alias>MCP1703A-1202_SOT23</alias>
+        <alias>MCP1703A-1502_SOT23</alias>
+        <alias>MCP1703A-1802_SOT23</alias>
+        <alias>MCP1703A-2502_SOT23</alias>
+        <alias>MCP1703A-2802_SOT23</alias>
+        <alias>MCP1703A-3002_SOT23</alias>
+        <alias>MCP1703A-4002_SOT23</alias>
+        <alias>MCP1703A-5002_SOT23</alias>
+      </aliases>
+      <description>Low Quiescent Current LDO Regulator, 3.3V, 250mA, Vin&lt;=16V, SOT-23</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1703A-3302_SOT23</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="74AUC1G04">
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74AUC1G04</field>
+      </fields>
+      <pins>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="power_in"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="74LVC1G80">
+      <description>Single D Flip-Flop Inverted Output, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G80</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="input"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~Q" type="output"/>
+        <pin num="5" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="74LVC2G04">
+      <aliases>
+        <alias>74AUC2G04</alias>
+      </aliases>
+      <description>Dual NOT Gate, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SG-*</fp>
+        <fp>SOT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC2G04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="power_in"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="power_in"/>
+        <pin num="6" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="SMA">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SMA</field>
+        <field name="Footprint">SMA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RF" type="BiDi"/>
+        <pin num="2" name="GND1" type="power_in"/>
+        <pin num="3" name="GND2" type="power_in"/>
+        <pin num="4" name="GND3" type="power_in"/>
+        <pin num="5" name="GND4" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="SW_Rotary1x6">
+      <description>rotary switch with 6 positions</description>
+      <docs>http://www.farnell.com/datasheets/2604296.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Rotary1x6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="2" type="passive"/>
+        <pin num="4" name="3" type="passive"/>
+        <pin num="5" name="4" type="passive"/>
+        <pin num="6" name="5" type="passive"/>
+        <pin num="7" name="C" type="passive"/>
+        <pin num="8" name="6" type="passive"/>
+        <pin num="OFF" name="OFF" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="TLV3012">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV3012</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="REF" type="input"/>
+        <pin num="6" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xGxx">
+      <uri>/usr/share/kicad/library/74xGxx.lib</uri>
+    </library>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="Battery_Management">
+      <uri>/usr/share/kicad/library/Battery_Management.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Oscillator">
+      <uri>/usr/share/kicad/library/Oscillator.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="jakub">
+      <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="P101" pin="1"/>
+      <node ref="U402" pin="4"/>
+      <node ref="R405" pin="1"/>
+      <node ref="D301" pin="2"/>
+      <node ref="C401" pin="1"/>
+    </net>
+    <net code="2" name="/switch/POWER_ON">
+      <node ref="R302" pin="1"/>
+      <node ref="Q401" pin="1"/>
+      <node ref="U301" pin="4"/>
+    </net>
+    <net code="3" name="+BATT">
+      <node ref="U301" pin="5"/>
+      <node ref="C302" pin="1"/>
+      <node ref="C301" pin="1"/>
+      <node ref="C303" pin="2"/>
+      <node ref="U301" pin="5"/>
+      <node ref="C405" pin="1"/>
+      <node ref="U402" pin="3"/>
+      <node ref="Q401" pin="2"/>
+      <node ref="P102" pin="1"/>
+    </net>
+    <net code="4" name="/SWITCH1">
+      <node ref="R301" pin="2"/>
+      <node ref="C301" pin="2"/>
+      <node ref="SW101" pin="2"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C205" pin="1"/>
+      <node ref="C203" pin="1"/>
+      <node ref="C407" pin="2"/>
+      <node ref="C404" pin="2"/>
+      <node ref="C408" pin="2"/>
+      <node ref="U404" pin="1"/>
+      <node ref="C208" pin="2"/>
+      <node ref="C204" pin="1"/>
+      <node ref="U403" pin="1"/>
+      <node ref="C406" pin="2"/>
+      <node ref="C206" pin="1"/>
+      <node ref="C402" pin="1"/>
+      <node ref="R406" pin="2"/>
+      <node ref="C201" pin="1"/>
+      <node ref="C202" pin="1"/>
+      <node ref="X201" pin="2"/>
+      <node ref="U203" pin="3"/>
+      <node ref="C215" pin="2"/>
+      <node ref="C209" pin="1"/>
+      <node ref="U204" pin="2"/>
+      <node ref="C216" pin="1"/>
+      <node ref="C213" pin="1"/>
+      <node ref="C217" pin="2"/>
+      <node ref="C210" pin="2"/>
+      <node ref="U202" pin="3"/>
+      <node ref="C211" pin="2"/>
+      <node ref="U205" pin="2"/>
+      <node ref="U202" pin="8"/>
+      <node ref="U202" pin="6"/>
+      <node ref="U202" pin="5"/>
+      <node ref="U202" pin="4"/>
+      <node ref="R407" pin="2"/>
+      <node ref="C219" pin="1"/>
+      <node ref="C221" pin="2"/>
+      <node ref="U201" pin="3"/>
+      <node ref="U301" pin="2"/>
+      <node ref="C405" pin="2"/>
+      <node ref="C403" pin="2"/>
+      <node ref="R402" pin="2"/>
+      <node ref="U401" pin="2"/>
+      <node ref="C401" pin="2"/>
+      <node ref="U206" pin="2"/>
+      <node ref="P101" pin="5"/>
+      <node ref="P101" pin="4"/>
+      <node ref="P103" pin="5"/>
+      <node ref="P103" pin="4"/>
+      <node ref="P103" pin="3"/>
+      <node ref="P103" pin="2"/>
+      <node ref="P102" pin="2"/>
+      <node ref="U301" pin="2"/>
+      <node ref="C303" pin="1"/>
+      <node ref="C218" pin="1"/>
+      <node ref="C220" pin="2"/>
+      <node ref="U402" pin="2"/>
+      <node ref="R409" pin="2"/>
+      <node ref="C212" pin="2"/>
+      <node ref="C214" pin="2"/>
+    </net>
+    <net code="6" name="Net-(P101-Pad2)">
+      <node ref="P101" pin="2"/>
+    </net>
+    <net code="7" name="/SWITCH2">
+      <node ref="U301" pin="1"/>
+      <node ref="C302" pin="2"/>
+      <node ref="D301" pin="1"/>
+      <node ref="R302" pin="2"/>
+      <node ref="SW101" pin="1"/>
+    </net>
+    <net code="8" name="Net-(BT101-Pad2)">
+      <node ref="BT101" pin="2"/>
+    </net>
+    <net code="9" name="Net-(BT101-Pad1)">
+      <node ref="BT101" pin="1"/>
+    </net>
+    <net code="10" name="Net-(P101-Pad3)">
+      <node ref="P101" pin="3"/>
+    </net>
+    <net code="11" name="/TCXO/OUT">
+      <node ref="R203" pin="1"/>
+      <node ref="P103" pin="1"/>
+      <node ref="R206" pin="1"/>
+      <node ref="R205" pin="1"/>
+      <node ref="R204" pin="1"/>
+      <node ref="R207" pin="1"/>
+      <node ref="R208" pin="1"/>
+    </net>
+    <net code="12" name="Net-(R207-Pad2)">
+      <node ref="R207" pin="2"/>
+      <node ref="U206" pin="6"/>
+    </net>
+    <net code="13" name="Net-(R208-Pad2)">
+      <node ref="R208" pin="2"/>
+      <node ref="U206" pin="4"/>
+    </net>
+    <net code="14" name="Net-(U202-Pad15)">
+      <node ref="U202" pin="15"/>
+    </net>
+    <net code="15" name="Net-(SW201-Pad4)">
+      <node ref="U202" pin="14"/>
+      <node ref="SW201" pin="4"/>
+    </net>
+    <net code="16" name="Net-(SW201-Pad5)">
+      <node ref="U202" pin="13"/>
+      <node ref="SW201" pin="5"/>
+    </net>
+    <net code="17" name="Net-(SW201-Pad6)">
+      <node ref="SW201" pin="6"/>
+      <node ref="U202" pin="12"/>
+    </net>
+    <net code="18" name="Net-(SW201-Pad8)">
+      <node ref="SW201" pin="8"/>
+      <node ref="U202" pin="11"/>
+    </net>
+    <net code="19" name="Net-(SW201-PadOFF)">
+      <node ref="SW201" pin="OFF"/>
+    </net>
+    <net code="20" name="Net-(SW201-Pad2)">
+      <node ref="SW201" pin="2"/>
+    </net>
+    <net code="21" name="Net-(SW201-Pad3)">
+      <node ref="U202" pin="7"/>
+      <node ref="U201" pin="4"/>
+      <node ref="SW201" pin="3"/>
+      <node ref="U201" pin="1"/>
+      <node ref="U202" pin="10"/>
+    </net>
+    <net code="22" name="+2V5">
+      <node ref="C220" pin="1"/>
+      <node ref="C204" pin="2"/>
+      <node ref="C218" pin="2"/>
+      <node ref="U206" pin="5"/>
+      <node ref="C203" pin="2"/>
+      <node ref="C206" pin="2"/>
+      <node ref="C201" pin="2"/>
+      <node ref="C221" pin="1"/>
+      <node ref="C214" pin="1"/>
+      <node ref="C212" pin="1"/>
+      <node ref="U201" pin="5"/>
+      <node ref="C219" pin="2"/>
+      <node ref="C209" pin="2"/>
+      <node ref="C211" pin="1"/>
+      <node ref="U205" pin="5"/>
+      <node ref="U204" pin="5"/>
+      <node ref="U202" pin="16"/>
+      <node ref="C408" pin="1"/>
+      <node ref="C216" pin="2"/>
+      <node ref="C213" pin="2"/>
+      <node ref="C215" pin="1"/>
+      <node ref="C217" pin="1"/>
+      <node ref="C210" pin="1"/>
+      <node ref="U203" pin="5"/>
+      <node ref="U202" pin="1"/>
+      <node ref="U404" pin="2"/>
+      <node ref="U202" pin="9"/>
+    </net>
+    <net code="23" name="Net-(C208-Pad1)">
+      <node ref="C208" pin="1"/>
+      <node ref="R202" pin="2"/>
+      <node ref="R201" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C207-Pad2)">
+      <node ref="C207" pin="2"/>
+      <node ref="X201" pin="3"/>
+    </net>
+    <net code="25" name="Net-(R203-Pad2)">
+      <node ref="U204" pin="6"/>
+      <node ref="R203" pin="2"/>
+    </net>
+    <net code="26" name="Net-(R204-Pad2)">
+      <node ref="R204" pin="2"/>
+      <node ref="U204" pin="4"/>
+    </net>
+    <net code="27" name="Net-(R206-Pad2)">
+      <node ref="U205" pin="4"/>
+      <node ref="R206" pin="2"/>
+    </net>
+    <net code="28" name="Net-(R205-Pad2)">
+      <node ref="R205" pin="2"/>
+      <node ref="U205" pin="6"/>
+    </net>
+    <net code="29" name="Net-(X201-Pad1)">
+      <node ref="X201" pin="1"/>
+    </net>
+    <net code="30" name="Net-(C207-Pad1)">
+      <node ref="C207" pin="1"/>
+      <node ref="U203" pin="2"/>
+      <node ref="R201" pin="2"/>
+    </net>
+    <net code="31" name="Net-(R202-Pad1)">
+      <node ref="U203" pin="4"/>
+      <node ref="U202" pin="2"/>
+      <node ref="U201" pin="2"/>
+      <node ref="SW201" pin="1"/>
+      <node ref="R202" pin="1"/>
+    </net>
+    <net code="32" name="+3V3">
+      <node ref="C406" pin="1"/>
+      <node ref="U403" pin="2"/>
+      <node ref="C205" pin="2"/>
+      <node ref="X201" pin="4"/>
+      <node ref="C202" pin="2"/>
+    </net>
+    <net code="33" name="Net-(SW201-Pad7)">
+      <node ref="U204" pin="1"/>
+      <node ref="U204" pin="3"/>
+      <node ref="U205" pin="3"/>
+      <node ref="U205" pin="1"/>
+      <node ref="SW201" pin="7"/>
+      <node ref="U206" pin="1"/>
+      <node ref="U206" pin="3"/>
+    </net>
+    <net code="34" name="+3V8">
+      <node ref="R408" pin="1"/>
+      <node ref="U404" pin="3"/>
+      <node ref="Q401" pin="3"/>
+      <node ref="C402" pin="2"/>
+      <node ref="C404" pin="1"/>
+      <node ref="C407" pin="1"/>
+      <node ref="U401" pin="6"/>
+      <node ref="R401" pin="1"/>
+      <node ref="U403" pin="3"/>
+      <node ref="C403" pin="1"/>
+    </net>
+    <net code="35" name="/Charger &amp; Power Supply/Bred">
+      <node ref="D402" pin="3"/>
+      <node ref="R406" pin="1"/>
+    </net>
+    <net code="36" name="/Charger &amp; Power Supply/Bgrn">
+      <node ref="R408" pin="2"/>
+      <node ref="D402" pin="2"/>
+    </net>
+    <net code="37" name="/Charger &amp; Power Supply/Cgrn">
+      <node ref="D401" pin="4"/>
+      <node ref="R407" pin="1"/>
+    </net>
+    <net code="38" name="/Charger &amp; Power Supply/Cred">
+      <node ref="R405" pin="2"/>
+      <node ref="D401" pin="1"/>
+    </net>
+    <net code="39" name="/Charger &amp; Power Supply/PROG">
+      <node ref="R409" pin="1"/>
+      <node ref="U402" pin="5"/>
+    </net>
+    <net code="40" name="/Charger &amp; Power Supply/STAT">
+      <node ref="D401" pin="2"/>
+      <node ref="D401" pin="3"/>
+      <node ref="U402" pin="1"/>
+    </net>
+    <net code="41" name="/Charger &amp; Power Supply/TH">
+      <node ref="U401" pin="3"/>
+      <node ref="R404" pin="1"/>
+      <node ref="R403" pin="1"/>
+    </net>
+    <net code="42" name="/Charger &amp; Power Supply/REF">
+      <node ref="U401" pin="5"/>
+      <node ref="R404" pin="2"/>
+    </net>
+    <net code="43" name="/Charger &amp; Power Supply/~V_OK">
+      <node ref="D402" pin="4"/>
+      <node ref="D402" pin="1"/>
+      <node ref="U401" pin="1"/>
+      <node ref="R403" pin="2"/>
+    </net>
+    <net code="44" name="/Charger &amp; Power Supply/VSENSE">
+      <node ref="R402" pin="1"/>
+      <node ref="R401" pin="2"/>
+      <node ref="U401" pin="4"/>
+    </net>
+    <net code="45" name="Net-(R301-Pad1)">
+      <node ref="R301" pin="1"/>
+      <node ref="U301" pin="3"/>
+      <node ref="U301" pin="6"/>
+    </net>
+  </nets>
+</export>
