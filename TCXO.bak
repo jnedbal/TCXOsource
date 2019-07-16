@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 2 4
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "TCXO clock source"
+Date "2019-06-16"
+Rev "1.1"
+Comp "King's College London"
+Comment1 "CC-BY-SA"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -241,7 +241,7 @@ F 0 "R201" V 3400 3300 50  0000 C CNN
 F 1 "470k" V 3500 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3430 3300 50  0001 C CNN
 F 3 "" H 3500 3300 50  0000 C CNN
-F 4 " MCMR06X4703FTL" H 3500 3300 60  0001 C CNN "Part Number"
+F 4 "MCMR06X4703FTL" H 3500 3300 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 3500 3300 60  0001 C CNN "Manufacturer"
 F 6 "0603" H 3500 3300 60  0001 C CNN "Package"
 F 7 "Farnell" H 3500 3300 60  0001 C CNN "Supplier"
@@ -264,7 +264,7 @@ F 0 "R202" V 3900 3300 50  0000 C CNN
 F 1 "470k" V 4000 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3930 3300 50  0001 C CNN
 F 3 "" H 4000 3300 50  0000 C CNN
-F 4 " MCMR06X4703FTL" H 4000 3300 60  0001 C CNN "Part Number"
+F 4 "MCMR06X4703FTL" H 4000 3300 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 4000 3300 60  0001 C CNN "Manufacturer"
 F 6 "0603" H 4000 3300 60  0001 C CNN "Package"
 F 7 "Farnell" H 4000 3300 60  0001 C CNN "Supplier"
@@ -398,6 +398,8 @@ F 6 "SC-70-6" H 6200 4450 50  0001 C CNN "Package"
 F 7 "Farnell" H 6200 4450 50  0001 C CNN "Supplier"
 F 8 "1606290" H 6200 4450 50  0001 C CNN "Order Code"
 F 9 "Dual Inverter Gate" H 6200 4450 50  0001 C CNN "Note"
+F 10 "Mouser" H 6200 4450 50  0001 C CNN "Alt. Supplier"
+F 11 "595-SN74AUC2G04DCKR" H 6200 4450 50  0001 C CNN "Alt. Order Code"
 	1    6200 4450
 	1    0    0    -1  
 $EndComp
@@ -437,6 +439,8 @@ F 6 "SC-70-6" H 6200 2450 50  0001 C CNN "Package"
 F 7 "Farnell" H 6200 2450 50  0001 C CNN "Supplier"
 F 8 "1606290" H 6200 2450 50  0001 C CNN "Order Code"
 F 9 "Dual Inverter Gate" H 6200 2450 50  0001 C CNN "Note"
+F 10 "Mouser" H 6200 2450 50  0001 C CNN "Alt. Supplier"
+F 11 "595-SN74AUC2G04DCKR" H 6200 2450 50  0001 C CNN "Alt. Order Code"
 	1    6200 2450
 	1    0    0    -1  
 $EndComp
@@ -983,6 +987,8 @@ F 6 "SC-70-6" H 6200 7350 50  0001 C CNN "Package"
 F 7 "Farnell" H 6200 7350 50  0001 C CNN "Supplier"
 F 8 "1606290" H 6200 7350 50  0001 C CNN "Order Code"
 F 9 "Dual Inverter Gate" H 6200 7350 50  0001 C CNN "Note"
+F 10 "Mouser" H 6200 7350 50  0001 C CNN "Alt. Supplier"
+F 11 "595-SN74AUC2G04DCKR" H 6200 7350 50  0001 C CNN "Alt. Order Code"
 	1    6200 7350
 	1    0    0    -1  
 $EndComp

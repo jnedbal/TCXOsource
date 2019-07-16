@@ -145,6 +145,8 @@ F 6 "SOT-23-6" H 4600 2500 50  0001 C CNN "Package"
 F 7 "Farnell" H 4600 2500 50  0001 C CNN "Supplier"
 F 8 "1287594" H 4600 2500 50  0001 C CNN "Order Code"
 F 9 "Dual Inverter Gate" H 4600 2500 50  0001 C CNN "Note"
+F 10 "Mouser" H 4600 2500 50  0001 C CNN "Alt. Supplier"
+F 11 "595-SN74LVC2G04DBVR" H 4600 2500 50  0001 C CNN "Alt. Order Code"
 	1    4600 2500
 	1    0    0    -1  
 $EndComp

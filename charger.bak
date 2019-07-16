@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "TCXO clock source"
+Date "2019-06-16"
+Rev "1.1"
+Comp "King's College London"
+Comment1 "CC-BY-SA"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -51,6 +51,8 @@ F 7 "Farnell" H 2600 5200 60  0001 C CNN "Supplier"
 F 8 "2769377" H 2600 5200 60  0001 C CNN "Order Code"
 F 9 "Nanopower 1.8V SOT23 comparator with voltage reference" H 2600 5200 60  0001 C CNN "Note"
 F 10 "1.74" H 2600 5200 60  0001 C CNN "Price"
+F 11 "Mouser" H 2600 5200 50  0001 C CNN "Alt. Supplier"
+F 12 "595-TLV3012AIDBVR" H 2600 5200 50  0001 C CNN "Alt. Order Code"
 	1    2600 5200
 	1    0    0    -1  
 $EndComp
@@ -195,7 +197,7 @@ F 0 "R403" V 1850 5500 50  0000 C CNN
 F 1 "470k" V 1950 5500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1880 5500 50  0001 C CNN
 F 3 "" H 1950 5500 50  0000 C CNN
-F 4 " MCMR06X4703FTL" H 1950 5500 60  0001 C CNN "Part Number"
+F 4 "MCMR06X4703FTL" H 1950 5500 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 1950 5500 60  0001 C CNN "Manufacturer"
 F 6 "0603" H 1950 5500 60  0001 C CNN "Package"
 F 7 "Farnell" H 1950 5500 60  0001 C CNN "Supplier"
@@ -742,7 +744,7 @@ F 0 "R409" V 2900 1950 50  0000 C CNN
 F 1 "2k2" V 3000 1950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2930 1950 50  0001 C CNN
 F 3 "" H 3000 1950 50  0000 C CNN
-F 4 " MCWR06X2201FTL" H 3000 1950 60  0001 C CNN "Part Number"
+F 4 "MCWR06X2201FTL" H 3000 1950 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 3000 1950 60  0001 C CNN "Manufacturer"
 F 6 "0603" H 3000 1950 60  0001 C CNN "Package"
 F 7 "Farnell" H 3000 1950 60  0001 C CNN "Supplier"
@@ -786,7 +788,7 @@ F 0 "R404" V 2100 5500 50  0000 C CNN
 F 1 "2k2" V 2200 5500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2130 5500 50  0001 C CNN
 F 3 "" H 2200 5500 50  0000 C CNN
-F 4 " MCWR06X2201FTL" H 2200 5500 60  0001 C CNN "Part Number"
+F 4 "MCWR06X2201FTL" H 2200 5500 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 2200 5500 60  0001 C CNN "Manufacturer"
 F 6 "0603" H 2200 5500 60  0001 C CNN "Package"
 F 7 "Farnell" H 2200 5500 60  0001 C CNN "Supplier"
@@ -885,7 +887,7 @@ F 0 "R405" V 4900 1250 50  0000 C CNN
 F 1 "2k2" V 5000 1250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4930 1250 50  0001 C CNN
 F 3 "" H 5000 1250 50  0000 C CNN
-F 4 " MCWR06X2201FTL" H 5000 1250 60  0001 C CNN "Part Number"
+F 4 "MCWR06X2201FTL" H 5000 1250 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 5000 1250 60  0001 C CNN "Manufacturer"
 F 6 "0603" H 5000 1250 60  0001 C CNN "Package"
 F 7 "Farnell" H 5000 1250 60  0001 C CNN "Supplier"
@@ -982,7 +984,7 @@ F 0 "R406" V 3100 5900 50  0000 C CNN
 F 1 "2k2" V 3200 5900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 5900 50  0001 C CNN
 F 3 "" H 3200 5900 50  0000 C CNN
-F 4 " MCWR06X2201FTL" H 3200 5900 60  0001 C CNN "Part Number"
+F 4 "MCWR06X2201FTL" H 3200 5900 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 3200 5900 60  0001 C CNN "Manufacturer"
 F 6 "0603" H 3200 5900 60  0001 C CNN "Package"
 F 7 "Farnell" H 3200 5900 60  0001 C CNN "Supplier"

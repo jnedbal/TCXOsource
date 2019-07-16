@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jakub/KiCAD/TCXOsource_v1-1/TCXOsource.sch</source>
-    <date>Sun 16 Jun 2019 18:55:07 BST</date>
+    <date>Tue 16 Jul 2019 19:05:43 BST</date>
     <tool>Eeschema 5.1.2-f72e74a~84~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -276,7 +276,7 @@
         <field name="Note">470kΩ/1% 0603 resistor</field>
         <field name="Order Code">2073512</field>
         <field name="Package">0603</field>
-        <field name="Part Number"> MCMR06X4703FTL</field>
+        <field name="Part Number">MCMR06X4703FTL</field>
         <field name="Price">0.01</field>
         <field name="Supplier">Farnell</field>
       </fields>
@@ -294,7 +294,7 @@
         <field name="Note">470kΩ/1% 0603 resistor</field>
         <field name="Order Code">2073512</field>
         <field name="Package">0603</field>
-        <field name="Part Number"> MCMR06X4703FTL</field>
+        <field name="Part Number">MCMR06X4703FTL</field>
         <field name="Price">0.01</field>
         <field name="Supplier">Farnell</field>
       </fields>
@@ -373,6 +373,8 @@
       <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering</footprint>
       <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
       <fields>
+        <field name="Alt. Order Code">595-SN74AUC2G04DCKR</field>
+        <field name="Alt. Supplier">Mouser</field>
         <field name="Manufacturer">Texas Instruments</field>
         <field name="Note">Dual Inverter Gate</field>
         <field name="Order Code">1606290</field>
@@ -389,6 +391,8 @@
       <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering</footprint>
       <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
       <fields>
+        <field name="Alt. Order Code">595-SN74AUC2G04DCKR</field>
+        <field name="Alt. Supplier">Mouser</field>
         <field name="Manufacturer">Texas Instruments</field>
         <field name="Note">Dual Inverter Gate</field>
         <field name="Order Code">1606290</field>
@@ -597,6 +601,8 @@
       <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering</footprint>
       <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
       <fields>
+        <field name="Alt. Order Code">595-SN74AUC2G04DCKR</field>
+        <field name="Alt. Supplier">Mouser</field>
         <field name="Manufacturer">Texas Instruments</field>
         <field name="Note">Dual Inverter Gate</field>
         <field name="Order Code">1606290</field>
@@ -819,6 +825,8 @@
       <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
       <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
       <fields>
+        <field name="Alt. Order Code">595-SN74LVC2G04DBVR</field>
+        <field name="Alt. Supplier">Mouser</field>
         <field name="Manufacturer">Texas Instruments</field>
         <field name="Note">Dual Inverter Gate</field>
         <field name="Order Code">1287594</field>
@@ -920,6 +928,8 @@
       <value>TLV3012</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
       <fields>
+        <field name="Alt. Order Code">595-TLV3012AIDBVR</field>
+        <field name="Alt. Supplier">Mouser</field>
         <field name="Manufacturer">Texas Instruments</field>
         <field name="Note">Nanopower 1.8V SOT23 comparator with voltage reference</field>
         <field name="Order Code">2769377</field>
@@ -976,7 +986,7 @@
         <field name="Note">470kΩ/1% 0603 resistor</field>
         <field name="Order Code">2073512</field>
         <field name="Package">0603</field>
-        <field name="Part Number"> MCMR06X4703FTL</field>
+        <field name="Part Number">MCMR06X4703FTL</field>
         <field name="Price">0.01</field>
         <field name="Supplier">Farnell</field>
       </fields>
@@ -1198,7 +1208,7 @@
         <field name="Note">2.2kΩ/1% 0603 resistor</field>
         <field name="Order Code">2447320</field>
         <field name="Package">0603</field>
-        <field name="Part Number"> MCWR06X2201FTL</field>
+        <field name="Part Number">MCWR06X2201FTL</field>
         <field name="Price">0.01</field>
         <field name="Supplier">Farnell</field>
       </fields>
@@ -1234,7 +1244,7 @@
         <field name="Note">2.2kΩ/1% 0603 resistor</field>
         <field name="Order Code">2447320</field>
         <field name="Package">0603</field>
-        <field name="Part Number"> MCWR06X2201FTL</field>
+        <field name="Part Number">MCWR06X2201FTL</field>
         <field name="Price">0.01</field>
         <field name="Supplier">Farnell</field>
       </fields>
@@ -1268,7 +1278,7 @@
         <field name="Note">2.2kΩ/1% 0603 resistor</field>
         <field name="Order Code">2447320</field>
         <field name="Package">0603</field>
-        <field name="Part Number"> MCWR06X2201FTL</field>
+        <field name="Part Number">MCWR06X2201FTL</field>
         <field name="Price">0.01</field>
         <field name="Supplier">Farnell</field>
       </fields>
@@ -1286,7 +1296,7 @@
         <field name="Note">2.2kΩ/1% 0603 resistor</field>
         <field name="Order Code">2447320</field>
         <field name="Package">0603</field>
-        <field name="Part Number"> MCWR06X2201FTL</field>
+        <field name="Part Number">MCWR06X2201FTL</field>
         <field name="Price">0.01</field>
         <field name="Supplier">Farnell</field>
       </fields>
