@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/jakub/KiCAD/TCXOsource_v1-1/TCXOsource.sch</source>
-    <date>Tue 16 Jul 2019 19:05:43 BST</date>
-    <tool>Eeschema 5.1.2-f72e74a~84~ubuntu16.04.1</tool>
+    <source>/home/jakub/kicad/TCXOsource/TCXOsource.sch</source>
+    <date>Wed 14 Aug 2019 11:25:22 BST</date>
+    <tool>Eeschema 5.1.3</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>TCXO clock source</title>
@@ -111,7 +111,7 @@
     </comp>
     <comp ref="P103">
       <value>SMA</value>
-      <footprint>jakub:SMA</footprint>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132134_Vertical</footprint>
       <fields>
         <field name="Manufacturer">Molex</field>
         <field name="Note">SMA RF Coaxial Connector Right Angle</field>
@@ -302,54 +302,6 @@
       <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
       <tstamp>5D1207B5</tstamp>
     </comp>
-    <comp ref="R206">
-      <value>300R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Manufacturer">Multicomp</field>
-        <field name="Note">300Ω/1% 0402 resistor</field>
-        <field name="Order Code">2447155</field>
-        <field name="Package">0402</field>
-        <field name="Part Number">MCWR04X3000FTL</field>
-        <field name="Supplier">Farnell</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
-      <tstamp>5D111077</tstamp>
-    </comp>
-    <comp ref="R205">
-      <value>300R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Manufacturer">Multicomp</field>
-        <field name="Note">300Ω/1% 0402 resistor</field>
-        <field name="Order Code">2447155</field>
-        <field name="Package">0402</field>
-        <field name="Part Number">MCWR04X3000FTL</field>
-        <field name="Supplier">Farnell</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
-      <tstamp>5D105696</tstamp>
-    </comp>
-    <comp ref="R204">
-      <value>300R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Manufacturer">Multicomp</field>
-        <field name="Note">300Ω/1% 0402 resistor</field>
-        <field name="Order Code">2447155</field>
-        <field name="Package">0402</field>
-        <field name="Part Number">MCWR04X3000FTL</field>
-        <field name="Supplier">Farnell</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
-      <tstamp>5D0F9CE7</tstamp>
-    </comp>
     <comp ref="C211">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
@@ -507,15 +459,15 @@
       <tstamp>5D0A3281</tstamp>
     </comp>
     <comp ref="R203">
-      <value>300R</value>
+      <value>274R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Description">274Ω/1% 0402 resistor</field>
         <field name="Manufacturer">Multicomp</field>
-        <field name="Note">300Ω/1% 0402 resistor</field>
-        <field name="Order Code">2447155</field>
+        <field name="Order Code">2072862</field>
         <field name="Package">0402</field>
-        <field name="Part Number">MCWR04X3000FTL</field>
+        <field name="Part Number">MCMR04X2740FTL</field>
         <field name="Supplier">Farnell</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -544,6 +496,14 @@
       <value>SW_Rotary1x6</value>
       <footprint>jakub:Nidec_Copal_SS-10-16</footprint>
       <datasheet>http://www.farnell.com/datasheets/2604296.pdf</datasheet>
+      <fields>
+        <field name="Description">6way rotary selection switch</field>
+        <field name="Manufacturer">Nidec Copal</field>
+        <field name="Order Code">2854809</field>
+        <field name="Package">DIP-8</field>
+        <field name="Part Number">SS-10-16NP-LE</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
       <libsource lib="jakub" part="SW_Rotary1x6" description="rotary switch with 6 positions"/>
       <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
       <tstamp>5D0E4C5F</tstamp>
@@ -563,38 +523,6 @@
       <libsource lib="jakub" part="74LVC1G80" description="Single D Flip-Flop Inverted Output, Low-Voltage CMOS"/>
       <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
       <tstamp>5D0F14CE</tstamp>
-    </comp>
-    <comp ref="R208">
-      <value>300R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Manufacturer">Multicomp</field>
-        <field name="Note">300Ω/1% 0402 resistor</field>
-        <field name="Order Code">2447155</field>
-        <field name="Package">0402</field>
-        <field name="Part Number">MCWR04X3000FTL</field>
-        <field name="Supplier">Farnell</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
-      <tstamp>5D174ACB</tstamp>
-    </comp>
-    <comp ref="R207">
-      <value>300R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Manufacturer">Multicomp</field>
-        <field name="Note">300Ω/1% 0402 resistor</field>
-        <field name="Order Code">2447155</field>
-        <field name="Package">0402</field>
-        <field name="Part Number">MCWR04X3000FTL</field>
-        <field name="Supplier">Farnell</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
-      <tstamp>5D174ADB</tstamp>
     </comp>
     <comp ref="U206">
       <value>AUC2G04</value>
@@ -783,6 +711,86 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
       <tstamp>5D224D70</tstamp>
+    </comp>
+    <comp ref="R204">
+      <value>274R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">274Ω/1% 0402 resistor</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2072862</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">MCMR04X2740FTL</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D54D252</tstamp>
+    </comp>
+    <comp ref="R205">
+      <value>274R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">274Ω/1% 0402 resistor</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2072862</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">MCMR04X2740FTL</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D54D81F</tstamp>
+    </comp>
+    <comp ref="R206">
+      <value>274R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">274Ω/1% 0402 resistor</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2072862</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">MCMR04X2740FTL</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D54E3F4</tstamp>
+    </comp>
+    <comp ref="R207">
+      <value>274R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">274Ω/1% 0402 resistor</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2072862</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">MCMR04X2740FTL</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D54F025</tstamp>
+    </comp>
+    <comp ref="R208">
+      <value>274R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">274Ω/1% 0402 resistor</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2072862</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">MCMR04X2740FTL</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/TCXO/" tstamps="/5CFAE850/"/>
+      <tstamp>5D54F870</tstamp>
     </comp>
     <comp ref="R301">
       <value>100k</value>
@@ -1396,7 +1404,7 @@
       <description>Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Open-Drain Status Output, in SOT23-5 package</description>
       <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</docs>
       <footprints>
-        <fp>*SOT*23*</fp>
+        <fp>SOT?23*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
@@ -1716,34 +1724,34 @@
   </libparts>
   <libraries>
     <library logical="74xGxx">
-      <uri>/usr/share/kicad/library/74xGxx.lib</uri>
+      <uri>/home/jakub/kicad/share/kicad-symbols/74xGxx.lib</uri>
     </library>
     <library logical="74xx">
-      <uri>/usr/share/kicad/library/74xx.lib</uri>
+      <uri>/home/jakub/kicad/share/kicad-symbols/74xx.lib</uri>
     </library>
     <library logical="Battery_Management">
-      <uri>/usr/share/kicad/library/Battery_Management.lib</uri>
+      <uri>/home/jakub/kicad/share/kicad-symbols/Battery_Management.lib</uri>
     </library>
     <library logical="Connector">
-      <uri>/usr/share/kicad/library/Connector.lib</uri>
+      <uri>/home/jakub/kicad/share/kicad-symbols/Connector.lib</uri>
     </library>
     <library logical="Device">
-      <uri>/usr/share/kicad/library/Device.lib</uri>
+      <uri>/home/jakub/kicad/share/kicad-symbols/Device.lib</uri>
     </library>
     <library logical="Mechanical">
-      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+      <uri>/home/jakub/kicad/share/kicad-symbols/Mechanical.lib</uri>
     </library>
     <library logical="Oscillator">
-      <uri>/usr/share/kicad/library/Oscillator.lib</uri>
+      <uri>/home/jakub/kicad/share/kicad-symbols/Oscillator.lib</uri>
     </library>
     <library logical="Regulator_Linear">
-      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+      <uri>/home/jakub/kicad/share/kicad-symbols/Regulator_Linear.lib</uri>
     </library>
     <library logical="Switch">
-      <uri>/usr/share/kicad/library/Switch.lib</uri>
+      <uri>/home/jakub/kicad/share/kicad-symbols/Switch.lib</uri>
     </library>
     <library logical="jakub">
-      <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
+      <uri>/home/jakub/kicad/share/kicad-jakub-lib/jakub.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -1760,15 +1768,15 @@
       <node ref="U301" pin="4"/>
     </net>
     <net code="3" name="+BATT">
-      <node ref="U301" pin="5"/>
       <node ref="C302" pin="1"/>
+      <node ref="U301" pin="5"/>
+      <node ref="P102" pin="2"/>
       <node ref="C301" pin="1"/>
       <node ref="C303" pin="2"/>
-      <node ref="U301" pin="5"/>
       <node ref="C405" pin="1"/>
-      <node ref="U402" pin="3"/>
       <node ref="Q401" pin="2"/>
-      <node ref="P102" pin="1"/>
+      <node ref="U402" pin="3"/>
+      <node ref="U301" pin="5"/>
     </net>
     <net code="4" name="/SWITCH1">
       <node ref="R301" pin="2"/>
@@ -1776,40 +1784,38 @@
       <node ref="SW101" pin="2"/>
     </net>
     <net code="5" name="GND">
+      <node ref="C208" pin="2"/>
       <node ref="C205" pin="1"/>
-      <node ref="C203" pin="1"/>
+      <node ref="U404" pin="1"/>
+      <node ref="U205" pin="2"/>
+      <node ref="C408" pin="2"/>
       <node ref="C407" pin="2"/>
       <node ref="C404" pin="2"/>
-      <node ref="C408" pin="2"/>
-      <node ref="U404" pin="1"/>
-      <node ref="C208" pin="2"/>
-      <node ref="C204" pin="1"/>
+      <node ref="C211" pin="2"/>
       <node ref="U403" pin="1"/>
-      <node ref="C406" pin="2"/>
-      <node ref="C206" pin="1"/>
+      <node ref="C201" pin="1"/>
       <node ref="C402" pin="1"/>
       <node ref="R406" pin="2"/>
-      <node ref="C201" pin="1"/>
+      <node ref="C203" pin="1"/>
+      <node ref="C206" pin="1"/>
+      <node ref="C406" pin="2"/>
+      <node ref="C204" pin="1"/>
       <node ref="C202" pin="1"/>
       <node ref="X201" pin="2"/>
       <node ref="U203" pin="3"/>
-      <node ref="C215" pin="2"/>
-      <node ref="C209" pin="1"/>
-      <node ref="U204" pin="2"/>
-      <node ref="C216" pin="1"/>
       <node ref="C213" pin="1"/>
+      <node ref="C215" pin="2"/>
       <node ref="C217" pin="2"/>
       <node ref="C210" pin="2"/>
-      <node ref="U202" pin="3"/>
-      <node ref="C211" pin="2"/>
-      <node ref="U205" pin="2"/>
+      <node ref="C216" pin="1"/>
       <node ref="U202" pin="8"/>
       <node ref="U202" pin="6"/>
       <node ref="U202" pin="5"/>
       <node ref="U202" pin="4"/>
-      <node ref="R407" pin="2"/>
-      <node ref="C219" pin="1"/>
-      <node ref="C221" pin="2"/>
+      <node ref="U204" pin="2"/>
+      <node ref="U202" pin="3"/>
+      <node ref="C209" pin="1"/>
+      <node ref="C303" pin="1"/>
       <node ref="U201" pin="3"/>
       <node ref="U301" pin="2"/>
       <node ref="C405" pin="2"/>
@@ -1817,32 +1823,34 @@
       <node ref="R402" pin="2"/>
       <node ref="U401" pin="2"/>
       <node ref="C401" pin="2"/>
-      <node ref="U206" pin="2"/>
+      <node ref="C221" pin="2"/>
       <node ref="P101" pin="5"/>
       <node ref="P101" pin="4"/>
       <node ref="P103" pin="5"/>
       <node ref="P103" pin="4"/>
       <node ref="P103" pin="3"/>
       <node ref="P103" pin="2"/>
-      <node ref="P102" pin="2"/>
+      <node ref="P102" pin="1"/>
       <node ref="U301" pin="2"/>
-      <node ref="C303" pin="1"/>
+      <node ref="R407" pin="2"/>
+      <node ref="C219" pin="1"/>
+      <node ref="U206" pin="2"/>
+      <node ref="C214" pin="2"/>
+      <node ref="C212" pin="2"/>
       <node ref="C218" pin="1"/>
-      <node ref="C220" pin="2"/>
       <node ref="U402" pin="2"/>
       <node ref="R409" pin="2"/>
-      <node ref="C212" pin="2"/>
-      <node ref="C214" pin="2"/>
+      <node ref="C220" pin="2"/>
     </net>
     <net code="6" name="Net-(P101-Pad2)">
       <node ref="P101" pin="2"/>
     </net>
     <net code="7" name="/SWITCH2">
+      <node ref="SW101" pin="1"/>
+      <node ref="R302" pin="2"/>
       <node ref="U301" pin="1"/>
       <node ref="C302" pin="2"/>
       <node ref="D301" pin="1"/>
-      <node ref="R302" pin="2"/>
-      <node ref="SW101" pin="1"/>
     </net>
     <net code="8" name="Net-(BT101-Pad2)">
       <node ref="BT101" pin="2"/>
@@ -1854,40 +1862,68 @@
       <node ref="P101" pin="3"/>
     </net>
     <net code="11" name="/TCXO/OUT">
-      <node ref="R203" pin="1"/>
-      <node ref="P103" pin="1"/>
+      <node ref="R208" pin="1"/>
+      <node ref="R207" pin="1"/>
       <node ref="R206" pin="1"/>
       <node ref="R205" pin="1"/>
       <node ref="R204" pin="1"/>
-      <node ref="R207" pin="1"/>
-      <node ref="R208" pin="1"/>
+      <node ref="R203" pin="1"/>
+      <node ref="P103" pin="1"/>
     </net>
-    <net code="12" name="Net-(R207-Pad2)">
-      <node ref="R207" pin="2"/>
-      <node ref="U206" pin="6"/>
+    <net code="12" name="+2V5">
+      <node ref="C206" pin="2"/>
+      <node ref="C408" pin="1"/>
+      <node ref="C211" pin="1"/>
+      <node ref="U205" pin="5"/>
+      <node ref="U404" pin="2"/>
+      <node ref="C201" pin="2"/>
+      <node ref="C204" pin="2"/>
+      <node ref="C220" pin="1"/>
+      <node ref="C203" pin="2"/>
+      <node ref="U201" pin="5"/>
+      <node ref="C218" pin="2"/>
+      <node ref="C221" pin="1"/>
+      <node ref="C219" pin="2"/>
+      <node ref="U206" pin="5"/>
+      <node ref="C212" pin="1"/>
+      <node ref="C214" pin="1"/>
+      <node ref="C210" pin="1"/>
+      <node ref="C217" pin="1"/>
+      <node ref="C215" pin="1"/>
+      <node ref="C213" pin="2"/>
+      <node ref="U202" pin="9"/>
+      <node ref="C216" pin="2"/>
+      <node ref="C209" pin="2"/>
+      <node ref="U204" pin="5"/>
+      <node ref="U203" pin="5"/>
+      <node ref="U202" pin="16"/>
+      <node ref="U202" pin="1"/>
     </net>
     <net code="13" name="Net-(R208-Pad2)">
       <node ref="R208" pin="2"/>
       <node ref="U206" pin="4"/>
     </net>
-    <net code="14" name="Net-(U202-Pad15)">
+    <net code="14" name="Net-(R207-Pad2)">
+      <node ref="R207" pin="2"/>
+      <node ref="U206" pin="6"/>
+    </net>
+    <net code="15" name="Net-(U202-Pad15)">
       <node ref="U202" pin="15"/>
     </net>
-    <net code="15" name="Net-(SW201-Pad4)">
-      <node ref="U202" pin="14"/>
+    <net code="16" name="Net-(SW201-Pad4)">
       <node ref="SW201" pin="4"/>
+      <node ref="U202" pin="14"/>
     </net>
-    <net code="16" name="Net-(SW201-Pad5)">
+    <net code="17" name="Net-(SW201-Pad5)">
       <node ref="U202" pin="13"/>
       <node ref="SW201" pin="5"/>
     </net>
-    <net code="17" name="Net-(SW201-Pad6)">
-      <node ref="SW201" pin="6"/>
-      <node ref="U202" pin="12"/>
-    </net>
-    <net code="18" name="Net-(SW201-Pad8)">
-      <node ref="SW201" pin="8"/>
-      <node ref="U202" pin="11"/>
+    <net code="18" name="Net-(SW201-Pad3)">
+      <node ref="SW201" pin="3"/>
+      <node ref="U202" pin="7"/>
+      <node ref="U201" pin="1"/>
+      <node ref="U202" pin="10"/>
+      <node ref="U201" pin="4"/>
     </net>
     <net code="19" name="Net-(SW201-PadOFF)">
       <node ref="SW201" pin="OFF"/>
@@ -1895,139 +1931,111 @@
     <net code="20" name="Net-(SW201-Pad2)">
       <node ref="SW201" pin="2"/>
     </net>
-    <net code="21" name="Net-(SW201-Pad3)">
-      <node ref="U202" pin="7"/>
-      <node ref="U201" pin="4"/>
-      <node ref="SW201" pin="3"/>
-      <node ref="U201" pin="1"/>
-      <node ref="U202" pin="10"/>
+    <net code="21" name="Net-(SW201-Pad6)">
+      <node ref="U202" pin="12"/>
+      <node ref="SW201" pin="6"/>
     </net>
-    <net code="22" name="+2V5">
-      <node ref="C220" pin="1"/>
-      <node ref="C204" pin="2"/>
-      <node ref="C218" pin="2"/>
-      <node ref="U206" pin="5"/>
-      <node ref="C203" pin="2"/>
-      <node ref="C206" pin="2"/>
-      <node ref="C201" pin="2"/>
-      <node ref="C221" pin="1"/>
-      <node ref="C214" pin="1"/>
-      <node ref="C212" pin="1"/>
-      <node ref="U201" pin="5"/>
-      <node ref="C219" pin="2"/>
-      <node ref="C209" pin="2"/>
-      <node ref="C211" pin="1"/>
-      <node ref="U205" pin="5"/>
-      <node ref="U204" pin="5"/>
-      <node ref="U202" pin="16"/>
-      <node ref="C408" pin="1"/>
-      <node ref="C216" pin="2"/>
-      <node ref="C213" pin="2"/>
-      <node ref="C215" pin="1"/>
-      <node ref="C217" pin="1"/>
-      <node ref="C210" pin="1"/>
-      <node ref="U203" pin="5"/>
-      <node ref="U202" pin="1"/>
-      <node ref="U404" pin="2"/>
-      <node ref="U202" pin="9"/>
+    <net code="22" name="Net-(SW201-Pad8)">
+      <node ref="U202" pin="11"/>
+      <node ref="SW201" pin="8"/>
     </net>
-    <net code="23" name="Net-(C208-Pad1)">
+    <net code="23" name="Net-(R205-Pad2)">
+      <node ref="U205" pin="6"/>
+      <node ref="R205" pin="2"/>
+    </net>
+    <net code="24" name="Net-(C208-Pad1)">
       <node ref="C208" pin="1"/>
-      <node ref="R202" pin="2"/>
       <node ref="R201" pin="1"/>
+      <node ref="R202" pin="2"/>
     </net>
-    <net code="24" name="Net-(C207-Pad2)">
-      <node ref="C207" pin="2"/>
+    <net code="25" name="Net-(C207-Pad2)">
       <node ref="X201" pin="3"/>
+      <node ref="C207" pin="2"/>
     </net>
-    <net code="25" name="Net-(R203-Pad2)">
+    <net code="26" name="Net-(R203-Pad2)">
       <node ref="U204" pin="6"/>
       <node ref="R203" pin="2"/>
     </net>
-    <net code="26" name="Net-(R204-Pad2)">
+    <net code="27" name="Net-(SW201-Pad7)">
+      <node ref="U205" pin="3"/>
+      <node ref="U206" pin="3"/>
+      <node ref="U206" pin="1"/>
+      <node ref="U205" pin="1"/>
+      <node ref="U204" pin="3"/>
+      <node ref="U204" pin="1"/>
+      <node ref="SW201" pin="7"/>
+    </net>
+    <net code="28" name="Net-(R204-Pad2)">
       <node ref="R204" pin="2"/>
       <node ref="U204" pin="4"/>
     </net>
-    <net code="27" name="Net-(R206-Pad2)">
+    <net code="29" name="Net-(R206-Pad2)">
       <node ref="U205" pin="4"/>
       <node ref="R206" pin="2"/>
     </net>
-    <net code="28" name="Net-(R205-Pad2)">
-      <node ref="R205" pin="2"/>
-      <node ref="U205" pin="6"/>
-    </net>
-    <net code="29" name="Net-(X201-Pad1)">
+    <net code="30" name="Net-(X201-Pad1)">
       <node ref="X201" pin="1"/>
     </net>
-    <net code="30" name="Net-(C207-Pad1)">
-      <node ref="C207" pin="1"/>
+    <net code="31" name="Net-(C207-Pad1)">
       <node ref="U203" pin="2"/>
+      <node ref="C207" pin="1"/>
       <node ref="R201" pin="2"/>
     </net>
-    <net code="31" name="Net-(R202-Pad1)">
-      <node ref="U203" pin="4"/>
+    <net code="32" name="Net-(R202-Pad1)">
       <node ref="U202" pin="2"/>
-      <node ref="U201" pin="2"/>
       <node ref="SW201" pin="1"/>
       <node ref="R202" pin="1"/>
+      <node ref="U201" pin="2"/>
+      <node ref="U203" pin="4"/>
     </net>
-    <net code="32" name="+3V3">
-      <node ref="C406" pin="1"/>
+    <net code="33" name="+3V3">
       <node ref="U403" pin="2"/>
-      <node ref="C205" pin="2"/>
+      <node ref="C406" pin="1"/>
       <node ref="X201" pin="4"/>
+      <node ref="C205" pin="2"/>
       <node ref="C202" pin="2"/>
     </net>
-    <net code="33" name="Net-(SW201-Pad7)">
-      <node ref="U204" pin="1"/>
-      <node ref="U204" pin="3"/>
-      <node ref="U205" pin="3"/>
-      <node ref="U205" pin="1"/>
-      <node ref="SW201" pin="7"/>
-      <node ref="U206" pin="1"/>
-      <node ref="U206" pin="3"/>
-    </net>
     <net code="34" name="+3V8">
-      <node ref="R408" pin="1"/>
       <node ref="U404" pin="3"/>
-      <node ref="Q401" pin="3"/>
-      <node ref="C402" pin="2"/>
-      <node ref="C404" pin="1"/>
-      <node ref="C407" pin="1"/>
-      <node ref="U401" pin="6"/>
-      <node ref="R401" pin="1"/>
       <node ref="U403" pin="3"/>
+      <node ref="C402" pin="2"/>
+      <node ref="C407" pin="1"/>
+      <node ref="C404" pin="1"/>
       <node ref="C403" pin="1"/>
+      <node ref="R408" pin="1"/>
+      <node ref="R401" pin="1"/>
+      <node ref="Q401" pin="3"/>
+      <node ref="U401" pin="6"/>
     </net>
     <net code="35" name="/Charger &amp; Power Supply/Bred">
       <node ref="D402" pin="3"/>
       <node ref="R406" pin="1"/>
     </net>
     <net code="36" name="/Charger &amp; Power Supply/Bgrn">
-      <node ref="R408" pin="2"/>
       <node ref="D402" pin="2"/>
+      <node ref="R408" pin="2"/>
     </net>
     <net code="37" name="/Charger &amp; Power Supply/Cgrn">
-      <node ref="D401" pin="4"/>
       <node ref="R407" pin="1"/>
+      <node ref="D401" pin="4"/>
     </net>
     <net code="38" name="/Charger &amp; Power Supply/Cred">
-      <node ref="R405" pin="2"/>
       <node ref="D401" pin="1"/>
+      <node ref="R405" pin="2"/>
     </net>
     <net code="39" name="/Charger &amp; Power Supply/PROG">
-      <node ref="R409" pin="1"/>
       <node ref="U402" pin="5"/>
+      <node ref="R409" pin="1"/>
     </net>
     <net code="40" name="/Charger &amp; Power Supply/STAT">
-      <node ref="D401" pin="2"/>
-      <node ref="D401" pin="3"/>
       <node ref="U402" pin="1"/>
+      <node ref="D401" pin="3"/>
+      <node ref="D401" pin="2"/>
     </net>
     <net code="41" name="/Charger &amp; Power Supply/TH">
+      <node ref="R403" pin="1"/>
       <node ref="U401" pin="3"/>
       <node ref="R404" pin="1"/>
-      <node ref="R403" pin="1"/>
     </net>
     <net code="42" name="/Charger &amp; Power Supply/REF">
       <node ref="U401" pin="5"/>
@@ -2036,12 +2044,12 @@
     <net code="43" name="/Charger &amp; Power Supply/~V_OK">
       <node ref="D402" pin="4"/>
       <node ref="D402" pin="1"/>
-      <node ref="U401" pin="1"/>
       <node ref="R403" pin="2"/>
+      <node ref="U401" pin="1"/>
     </net>
     <net code="44" name="/Charger &amp; Power Supply/VSENSE">
-      <node ref="R402" pin="1"/>
       <node ref="R401" pin="2"/>
+      <node ref="R402" pin="1"/>
       <node ref="U401" pin="4"/>
     </net>
     <net code="45" name="Net-(R301-Pad1)">

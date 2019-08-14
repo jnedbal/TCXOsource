@@ -1,6 +1,6 @@
-EESchema Schematic File Version 4
+ESchema Schematic File Version 4
 LIBS:TCXOsource-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -64,7 +64,7 @@ F 5 "Multicomp" H 4550 2100 60  0001 C CNN "Manufacturer"
 F 6 "0603" H 4550 2100 60  0001 C CNN "Package"
 F 7 "Farnell" H 4550 2100 60  0001 C CNN "Supplier"
 F 8 "2447226" H 4550 2100 60  0001 C CNN "Order Code"
-F 9 "100kΩ/1% 0603 resistor" H 4550 2100 60  0001 C CNN "Note"
+F 9 "100kΩ/1% 0603 resistor" H 4550 2100 60  0001 C CNN "Description"
 F 10 "0.01" H 4550 2100 60  0001 C CNN "Price"
 F 11 "Seeed OPL" H 4550 2100 50  0001 C CNN "Alt. Supplier"
 F 12 "301010196" H 4550 2100 50  0001 C CNN "Alt. Order Code"
@@ -86,7 +86,7 @@ F 5 "Multicomp" H 5000 3500 50  0001 C CNN "Manufacturer"
 F 6 "0603" H 5000 3500 50  0001 C CNN "Package"
 F 7 "Farnell" H 5000 3500 50  0001 C CNN "Supplier"
 F 8 "1759122" H 5000 3500 50  0001 C CNN "Order Code"
-F 9 "100nF/50V X7R 0603 ceramic capacitor" H 5000 3500 50  0001 C CNN "Note"
+F 9 "100nF/50V X7R 0603 ceramic capacitor" H 5000 3500 50  0001 C CNN "Description"
 F 10 "Seeed OPL" H 5000 3500 50  0001 C CNN "Alt. Supplier"
 F 11 "302010138" H 5000 3500 50  0001 C CNN "Alt. Order Code"
 	1    5000 3500
@@ -144,7 +144,7 @@ F 5 "Texas Instruments" H 4600 2500 50  0001 C CNN "Manufacturer"
 F 6 "SOT-23-6" H 4600 2500 50  0001 C CNN "Package"
 F 7 "Farnell" H 4600 2500 50  0001 C CNN "Supplier"
 F 8 "1287594" H 4600 2500 50  0001 C CNN "Order Code"
-F 9 "Dual Inverter Gate" H 4600 2500 50  0001 C CNN "Note"
+F 9 "Dual Inverter Gate" H 4600 2500 50  0001 C CNN "Description"
 F 10 "Mouser" H 4600 2500 50  0001 C CNN "Alt. Supplier"
 F 11 "595-SN74LVC2G04DBVR" H 4600 2500 50  0001 C CNN "Alt. Order Code"
 	1    4600 2500
@@ -167,7 +167,7 @@ F 5 "TDK" H 3750 1900 50  0001 C CNN "Manufacturer"
 F 6 "0603" H 3750 1900 50  0001 C CNN "Package"
 F 7 "Farnell" H 3750 1900 50  0001 C CNN "Supplier"
 F 8 "2768390" H 3750 1900 50  0001 C CNN "Order Code"
-F 9 "1μF/16V 0603 X7R capacitor" H 3750 1900 50  0001 C CNN "Note"
+F 9 "1μF/16V 0603 X7R capacitor" H 3750 1900 50  0001 C CNN "Description"
 F 10 "Seeed OPL" H 3750 1900 50  0001 C CNN "Alt. Supplier"
 F 11 "302010139" H 3750 1900 50  0001 C CNN "Alt. Order Code"
 	1    3750 1900
@@ -210,7 +210,7 @@ F 0 "U301" H 5450 2600 50  0000 L CNN
 F 1 "LVC2G04" H 5450 2400 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5400 2500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5400 2500 50  0001 C CNN
-F 4 "Dual Inverter Gate" H 5400 2500 50  0001 C CNN "Note"
+F 4 "Dual Inverter Gate" H 5400 2500 50  0001 C CNN "Description"
 F 5 "SN74LVC2G04DBVR" H 5400 2500 50  0001 C CNN "Part Number"
 F 6 "Texas Instruments" H 5400 2500 50  0001 C CNN "Manufacturer"
 F 7 "SOT-23-6" H 5400 2500 50  0001 C CNN "Package"
@@ -238,7 +238,7 @@ F 5 "Multicomp" H 4550 2900 60  0001 C CNN "Manufacturer"
 F 6 "0603" H 4550 2900 60  0001 C CNN "Package"
 F 7 "Farnell" H 4550 2900 60  0001 C CNN "Supplier"
 F 8 "2447226" H 4550 2900 60  0001 C CNN "Order Code"
-F 9 "100kΩ/1% 0603 resistor" H 4550 2900 60  0001 C CNN "Note"
+F 9 "100kΩ/1% 0603 resistor" H 4550 2900 60  0001 C CNN "Description"
 F 10 "0.01" H 4550 2900 60  0001 C CNN "Price"
 F 11 "Seeed OPL" H 4550 2900 50  0001 C CNN "Alt. Supplier"
 F 12 "301010196" H 4550 2900 50  0001 C CNN "Alt. Order Code"
@@ -287,7 +287,7 @@ F 5 "On Semiconductor" H 3900 2900 50  0001 C CNN "Manufacturer"
 F 6 "SOD-323" H 3900 2900 50  0001 C CNN "Package"
 F 7 "Farnell" H 3900 2900 50  0001 C CNN "Supplier"
 F 8 "1459029" H 3900 2900 50  0001 C CNN "Order Code"
-F 9 "Small Signal Diode 200mA 85V" H 3900 2900 50  0001 C CNN "Note"
+F 9 "Small Signal Diode 200mA 85V" H 3900 2900 50  0001 C CNN "Description"
 	1    3900 2900
 	-1   0    0    1   
 $EndComp
@@ -311,7 +311,7 @@ F 5 "Multicomp" H 4150 1900 60  0001 C CNN "Manufacturer"
 F 6 "0603" H 4150 1900 60  0001 C CNN "Package"
 F 7 "Farnell" H 4150 1900 60  0001 C CNN "Supplier"
 F 8 "9406182" H 4150 1900 60  0001 C CNN "Order Code"
-F 9 "10nF/50V X7R 0603 ceramic capacitor" H 4150 1900 60  0001 C CNN "Note"
+F 9 "10nF/50V X7R 0603 ceramic capacitor" H 4150 1900 60  0001 C CNN "Description"
 F 10 "0.01" H 4150 1900 60  0001 C CNN "Price"
 F 11 "Seeed OPL" H 4150 1900 50  0001 C CNN "Alt. Supplier"
 F 12 "302010140" H 4150 1900 50  0001 C CNN "Alt. Order Code"

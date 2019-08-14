@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:TCXOsource-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -27,7 +27,7 @@ F 5 "Molex" H 1600 1750 60  0001 C CNN "Manufacturer"
 F 6 "USB-A plug" H 1600 1750 60  0001 C CNN "Package"
 F 7 "Farnell" H 1600 1750 60  0001 C CNN "Supplier"
 F 8 "2067044" H 1600 1750 60  0001 C CNN "Order Code"
-F 9 "USB shielded I/O plug type A right angle through hole" H 1600 1750 60  0001 C CNN "Note"
+F 9 "USB shielded I/O plug type A right angle through hole" H 1600 1750 60  0001 C CNN "Description"
 F 10 "0.52" H 1600 1750 60  0001 C CNN "Price"
 	1    1600 1750
 	1    0    0    -1  
@@ -51,7 +51,7 @@ F 5 "MikroElektronika" H 5200 1650 60  0001 C CNN "Manufacturer"
 F 6 "63x44" H 5200 1650 60  0001 C CNN "Package"
 F 7 "Farnell" H 5200 1650 60  0001 C CNN "Supplier"
 F 8 "2786900" H 5200 1650 60  0001 C CNN "Order Code"
-F 9 "2 Ah Li-ion polymer battery" H 5200 1650 60  0001 C CNN "Note"
+F 9 "2 Ah Li-ion polymer battery" H 5200 1650 60  0001 C CNN "Description"
 F 10 "11.53" H 5200 1650 60  0001 C CNN "Price"
 	1    5200 1650
 	1    0    0    -1  
@@ -97,21 +97,21 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Male P102
 U 1 1 5D12F0AA
-P 4600 1550
-F 0 "P102" H 4572 1524 50  0000 R CNN
-F 1 "SH2M" H 4572 1433 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 4600 1550 50  0001 C CNN
-F 3 "~" H 4600 1550 50  0001 C CNN
-F 4 "S2B-XH-A(LF)(SN)" H 4600 1550 50  0001 C CNN "Part Number"
-F 5 "JST" H 4600 1550 50  0001 C CNN "Manufacturer"
-F 6 "2.5mm pitch" H 4600 1550 50  0001 C CNN "Package"
-F 7 "Farnell" H 4600 1550 50  0001 C CNN "Supplier"
-F 8 "1516289" H 4600 1550 50  0001 C CNN "Order Code"
-F 9 "RS Components" H 4600 1550 50  0001 C CNN "Alt. Supplier"
-F 10 "2-way XH connector 2.5mm pitch crimp style" H 4600 1550 50  0001 C CNN "Note"
-F 11 "820-1582" H 4600 1550 50  0001 C CNN "Alt. Order Code"
-	1    4600 1550
-	-1   0    0    -1  
+P 4600 1650
+F 0 "P102" H 4572 1624 50  0000 R CNN
+F 1 "SH2M" H 4572 1533 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 4600 1650 50  0001 C CNN
+F 3 "~" H 4600 1650 50  0001 C CNN
+F 4 "S2B-XH-A(LF)(SN)" H 4600 1650 50  0001 C CNN "Part Number"
+F 5 "JST" H 4600 1650 50  0001 C CNN "Manufacturer"
+F 6 "2.5mm pitch" H 4600 1650 50  0001 C CNN "Package"
+F 7 "Farnell" H 4600 1650 50  0001 C CNN "Supplier"
+F 8 "1516289" H 4600 1650 50  0001 C CNN "Order Code"
+F 9 "RS Components" H 4600 1650 50  0001 C CNN "Alt. Supplier"
+F 10 "2-way XH connector 2.5mm pitch crimp style" H 4600 1650 50  0001 C CNN "Description"
+F 11 "820-1582" H 4600 1650 50  0001 C CNN "Alt. Order Code"
+	1    4600 1650
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5400 4000 5700 4000
@@ -121,14 +121,14 @@ U 1 1 5D309761
 P 5850 4300
 F 0 "P103" H 5944 4628 60  0000 L CNN
 F 1 "SMA" H 5944 4522 60  0000 L CNN
-F 2 "jakub:SMA" H 5944 4424 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 5944 4424 50  0000 L CNN
 F 3 "" H 5850 4300 60  0000 C CNN
 F 4 "73251-2200" H 5850 4300 50  0001 C CNN "Part Number"
 F 5 "Molex" H 5850 4300 50  0001 C CNN "Manufacturer"
 F 6 "SMA R/A" H 5850 4300 50  0001 C CNN "Package"
 F 7 "Farnell" H 5850 4300 50  0001 C CNN "Supplier"
 F 8 "2293854" H 5850 4300 50  0001 C CNN "Order Code"
-F 9 "SMA RF Coaxial Connector Right Angle" H 5850 4300 50  0001 C CNN "Note"
+F 9 "SMA RF Coaxial Connector Right Angle" H 5850 4300 50  0001 C CNN "Description"
 	1    5850 4300
 	1    0    0    -1  
 $EndComp
@@ -177,7 +177,7 @@ F 5 "TE Connectivity" H 1700 3550 50  0001 C CNN "Manufacturer"
 F 6 "6x6 mm" H 1700 3550 50  0001 C CNN "Package"
 F 7 "Farnell" H 1700 3550 50  0001 C CNN "Supplier"
 F 8 "2533101" H 1700 3550 50  0001 C CNN "Order Code"
-F 9 "Tactile Switch 9.4 mm button actuator" H 1700 3550 50  0001 C CNN "Note"
+F 9 "Tactile Switch 9.4 mm button actuator" H 1700 3550 50  0001 C CNN "Description"
 	1    1700 3550
 	1    0    0    -1  
 $EndComp

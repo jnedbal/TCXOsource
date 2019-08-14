@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:TCXOsource-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
@@ -29,7 +29,7 @@ F 5 "ILSI America" H 2450 2700 50  0001 C CNN "Manufacturer"
 F 6 "SMD 3.2x2.5" H 2450 2700 50  0001 C CNN "Package"
 F 7 "Farnell" H 2450 2700 50  0001 C CNN "Supplier"
 F 8 "2509375" H 2450 2700 50  0001 C CNN "Order Code"
-F 9 "40.0 MHz TCXO oscillator" H 2450 2700 50  0001 C CNN "Note"
+F 9 "40.0 MHz TCXO oscillator" H 2450 2700 50  0001 C CNN "Description"
 	1    2450 2700
 	1    0    0    -1  
 $EndComp
@@ -142,7 +142,7 @@ F 5 "Texas Instruments" H 3750 2700 50  0001 C CNN "Manufacturer"
 F 6 "SC-70-5" H 3750 2700 50  0001 C CNN "Package"
 F 7 "Farnell" H 3750 2700 50  0001 C CNN "Supplier"
 F 8 "2334905" H 3750 2700 50  0001 C CNN "Order Code"
-F 9 "Single Inverter Gate" H 3750 2700 50  0001 C CNN "Note"
+F 9 "Single Inverter Gate" H 3750 2700 50  0001 C CNN "Description"
 	1    3750 2700
 	1    0    0    -1  
 $EndComp
@@ -161,7 +161,7 @@ F 5 "Multicomp" H 1350 2700 50  0001 C CNN "Manufacturer"
 F 6 "0603" H 1350 2700 50  0001 C CNN "Package"
 F 7 "Farnell" H 1350 2700 50  0001 C CNN "Supplier"
 F 8 "1759122" H 1350 2700 50  0001 C CNN "Order Code"
-F 9 "100nF/50V X7R 0603 ceramic capacitor" H 1350 2700 50  0001 C CNN "Note"
+F 9 "100nF/50V X7R 0603 ceramic capacitor" H 1350 2700 50  0001 C CNN "Description"
 F 10 "Seeed OPL" H 1350 2700 50  0001 C CNN "Alt. Supplier"
 F 11 "302010138" H 1350 2700 50  0001 C CNN "Alt. Order Code"
 	1    1350 2700
@@ -183,7 +183,7 @@ F 5 "Multicomp" H 3000 2700 60  0001 C CNN "Manufacturer"
 F 6 "0603" H 3000 2700 60  0001 C CNN "Package"
 F 7 "Farnell" H 3000 2700 60  0001 C CNN "Supplier"
 F 8 "9406182" H 3000 2700 60  0001 C CNN "Order Code"
-F 9 "10nF/50V X7R 0603 ceramic capacitor" H 3000 2700 60  0001 C CNN "Note"
+F 9 "10nF/50V X7R 0603 ceramic capacitor" H 3000 2700 60  0001 C CNN "Description"
 F 10 "0.01" H 3000 2700 60  0001 C CNN "Price"
 F 11 "Seeed OPL" H 3000 2700 50  0001 C CNN "Alt. Supplier"
 F 12 "302010140" H 3000 2700 50  0001 C CNN "Alt. Order Code"
@@ -206,7 +206,7 @@ F 5 "Multicomp" H 3750 3550 60  0001 C CNN "Manufacturer"
 F 6 "0603" H 3750 3550 60  0001 C CNN "Package"
 F 7 "Farnell" H 3750 3550 60  0001 C CNN "Supplier"
 F 8 "9406182" H 3750 3550 60  0001 C CNN "Order Code"
-F 9 "10nF/50V X7R 0603 ceramic capacitor" H 3750 3550 60  0001 C CNN "Note"
+F 9 "10nF/50V X7R 0603 ceramic capacitor" H 3750 3550 60  0001 C CNN "Description"
 F 10 "0.01" H 3750 3550 60  0001 C CNN "Price"
 F 11 "Seeed OPL" H 3750 3550 50  0001 C CNN "Alt. Supplier"
 F 12 "302010140" H 3750 3550 50  0001 C CNN "Alt. Order Code"
@@ -226,7 +226,7 @@ F 5 "Murata" H 1750 2700 50  0001 C CNN "Manufacturer"
 F 6 "0402" H 1750 2700 50  0001 C CNN "Package"
 F 7 "Farnell" H 1750 2700 50  0001 C CNN "Supplier"
 F 8 "8819556" H 1750 2700 50  0001 C CNN "Order Code"
-F 9 "1nF/50V C0G/NP0 0402 ceramic capacitor" H 1750 2700 50  0001 C CNN "Note"
+F 9 "1nF/50V C0G/NP0 0402 ceramic capacitor" H 1750 2700 50  0001 C CNN "Description"
 	1    1750 2700
 	-1   0    0    1   
 $EndComp
@@ -246,7 +246,7 @@ F 5 "Multicomp" H 3500 3300 60  0001 C CNN "Manufacturer"
 F 6 "0603" H 3500 3300 60  0001 C CNN "Package"
 F 7 "Farnell" H 3500 3300 60  0001 C CNN "Supplier"
 F 8 "2073512" H 3500 3300 60  0001 C CNN "Order Code"
-F 9 "470kΩ/1% 0603 resistor" H 3500 3300 60  0001 C CNN "Note"
+F 9 "470kΩ/1% 0603 resistor" H 3500 3300 60  0001 C CNN "Description"
 F 10 "0.01" H 3500 3300 60  0001 C CNN "Price"
 F 11 "Seeed OPL" H 3500 3300 50  0001 C CNN "Alt. Supplier"
 F 12 "301010190" H 3500 3300 50  0001 C CNN "Alt. Order Code"
@@ -269,7 +269,7 @@ F 5 "Multicomp" H 4000 3300 60  0001 C CNN "Manufacturer"
 F 6 "0603" H 4000 3300 60  0001 C CNN "Package"
 F 7 "Farnell" H 4000 3300 60  0001 C CNN "Supplier"
 F 8 "2073512" H 4000 3300 60  0001 C CNN "Order Code"
-F 9 "470kΩ/1% 0603 resistor" H 4000 3300 60  0001 C CNN "Note"
+F 9 "470kΩ/1% 0603 resistor" H 4000 3300 60  0001 C CNN "Description"
 F 10 "0.01" H 4000 3300 60  0001 C CNN "Price"
 F 11 "Seeed OPL" H 4000 3300 50  0001 C CNN "Alt. Supplier"
 F 12 "301010190" H 4000 3300 50  0001 C CNN "Alt. Order Code"
@@ -285,57 +285,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 2550 3750 2600
 Connection ~ 3750 2600
-$Comp
-L Device:R R206
-U 1 1 5D111077
-P 7100 5150
-F 0 "R206" V 7000 5150 50  0000 C CNN
-F 1 "300R" V 7100 5150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 5150 50  0001 C CNN
-F 3 "~" H 7100 5150 50  0001 C CNN
-F 4 "MCWR04X3000FTL" H 7100 5150 50  0001 C CNN "Part Number"
-F 5 "Multicomp" H 7100 5150 50  0001 C CNN "Manufacturer"
-F 6 "0402" H 7100 5150 50  0001 C CNN "Package"
-F 7 "Farnell" H 7100 5150 50  0001 C CNN "Supplier"
-F 8 "2447155" H 7100 5150 50  0001 C CNN "Order Code"
-F 9 "300Ω/1% 0402 resistor" H 7100 5150 50  0001 C CNN "Note"
-	1    7100 5150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R205
-U 1 1 5D105696
-P 7100 4450
-F 0 "R205" V 7000 4450 50  0000 C CNN
-F 1 "300R" V 7100 4450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 4450 50  0001 C CNN
-F 3 "~" H 7100 4450 50  0001 C CNN
-F 4 "MCWR04X3000FTL" H 7100 4450 50  0001 C CNN "Part Number"
-F 5 "Multicomp" H 7100 4450 50  0001 C CNN "Manufacturer"
-F 6 "0402" H 7100 4450 50  0001 C CNN "Package"
-F 7 "Farnell" H 7100 4450 50  0001 C CNN "Supplier"
-F 8 "2447155" H 7100 4450 50  0001 C CNN "Order Code"
-F 9 "300Ω/1% 0402 resistor" H 7100 4450 50  0001 C CNN "Note"
-	1    7100 4450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R204
-U 1 1 5D0F9CE7
-P 7100 3150
-F 0 "R204" V 7000 3150 50  0000 C CNN
-F 1 "300R" V 7100 3150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 3150 50  0001 C CNN
-F 3 "~" H 7100 3150 50  0001 C CNN
-F 4 "MCWR04X3000FTL" H 7100 3150 50  0001 C CNN "Part Number"
-F 5 "Multicomp" H 7100 3150 50  0001 C CNN "Manufacturer"
-F 6 "0402" H 7100 3150 50  0001 C CNN "Package"
-F 7 "Farnell" H 7100 3150 50  0001 C CNN "Supplier"
-F 8 "2447155" H 7100 3150 50  0001 C CNN "Order Code"
-F 9 "300Ω/1% 0402 resistor" H 7100 3150 50  0001 C CNN "Note"
-	1    7100 3150
-	0    1    1    0   
-$EndComp
 $Comp
 L power:GND #PWR0213
 U 1 1 5D0D54A7
@@ -378,7 +327,7 @@ F 5 "TDK" H 6000 8800 50  0001 C CNN "Manufacturer"
 F 6 "0603" H 6000 8800 50  0001 C CNN "Package"
 F 7 "Farnell" H 6000 8800 50  0001 C CNN "Supplier"
 F 8 "2768390" H 6000 8800 50  0001 C CNN "Order Code"
-F 9 "1μF/16V 0603 X7R capacitor" H 6000 8800 50  0001 C CNN "Note"
+F 9 "1μF/16V 0603 X7R capacitor" H 6000 8800 50  0001 C CNN "Description"
 F 10 "Seeed OPL" H 6000 8800 50  0001 C CNN "Alt. Supplier"
 F 11 "302010139" H 6000 8800 50  0001 C CNN "Alt. Order Code"
 	1    6000 8800
@@ -397,7 +346,7 @@ F 5 "Texas Instruments" H 6200 4450 50  0001 C CNN "Manufacturer"
 F 6 "SC-70-6" H 6200 4450 50  0001 C CNN "Package"
 F 7 "Farnell" H 6200 4450 50  0001 C CNN "Supplier"
 F 8 "1606290" H 6200 4450 50  0001 C CNN "Order Code"
-F 9 "Dual Inverter Gate" H 6200 4450 50  0001 C CNN "Note"
+F 9 "Dual Inverter Gate" H 6200 4450 50  0001 C CNN "Description"
 F 10 "Mouser" H 6200 4450 50  0001 C CNN "Alt. Supplier"
 F 11 "595-SN74AUC2G04DCKR" H 6200 4450 50  0001 C CNN "Alt. Order Code"
 	1    6200 4450
@@ -438,7 +387,7 @@ F 5 "Texas Instruments" H 6200 2450 50  0001 C CNN "Manufacturer"
 F 6 "SC-70-6" H 6200 2450 50  0001 C CNN "Package"
 F 7 "Farnell" H 6200 2450 50  0001 C CNN "Supplier"
 F 8 "1606290" H 6200 2450 50  0001 C CNN "Order Code"
-F 9 "Dual Inverter Gate" H 6200 2450 50  0001 C CNN "Note"
+F 9 "Dual Inverter Gate" H 6200 2450 50  0001 C CNN "Description"
 F 10 "Mouser" H 6200 2450 50  0001 C CNN "Alt. Supplier"
 F 11 "595-SN74AUC2G04DCKR" H 6200 2450 50  0001 C CNN "Alt. Order Code"
 	1    6200 2450
@@ -507,7 +456,7 @@ F 5 "Murata" H 4050 2350 50  0001 C CNN "Manufacturer"
 F 6 "0402" H 4050 2350 50  0001 C CNN "Package"
 F 7 "Farnell" H 4050 2350 50  0001 C CNN "Supplier"
 F 8 "8819556" H 4050 2350 50  0001 C CNN "Order Code"
-F 9 "1nF/50V C0G/NP0 0402 ceramic capacitor" H 4050 2350 50  0001 C CNN "Note"
+F 9 "1nF/50V C0G/NP0 0402 ceramic capacitor" H 4050 2350 50  0001 C CNN "Description"
 	1    4050 2350
 	0    -1   -1   0   
 $EndComp
@@ -524,7 +473,7 @@ F 5 "Murata" H 6500 4100 50  0001 C CNN "Manufacturer"
 F 6 "0402" H 6500 4100 50  0001 C CNN "Package"
 F 7 "Farnell" H 6500 4100 50  0001 C CNN "Supplier"
 F 8 "8819556" H 6500 4100 50  0001 C CNN "Order Code"
-F 9 "1nF/50V C0G/NP0 0402 ceramic capacitor" H 6500 4100 50  0001 C CNN "Note"
+F 9 "1nF/50V C0G/NP0 0402 ceramic capacitor" H 6500 4100 50  0001 C CNN "Description"
 	1    6500 4100
 	0    -1   -1   0   
 $EndComp
@@ -541,7 +490,7 @@ F 5 "Murata" H 6500 2100 50  0001 C CNN "Manufacturer"
 F 6 "0402" H 6500 2100 50  0001 C CNN "Package"
 F 7 "Farnell" H 6500 2100 50  0001 C CNN "Supplier"
 F 8 "8819556" H 6500 2100 50  0001 C CNN "Order Code"
-F 9 "1nF/50V C0G/NP0 0402 ceramic capacitor" H 6500 2100 50  0001 C CNN "Note"
+F 9 "1nF/50V C0G/NP0 0402 ceramic capacitor" H 6500 2100 50  0001 C CNN "Description"
 	1    6500 2100
 	0    -1   -1   0   
 $EndComp
@@ -560,7 +509,7 @@ F 5 "Multicomp" H 6500 1200 50  0001 C CNN "Manufacturer"
 F 6 "0603" H 6500 1200 50  0001 C CNN "Package"
 F 7 "Farnell" H 6500 1200 50  0001 C CNN "Supplier"
 F 8 "1759122" H 6500 1200 50  0001 C CNN "Order Code"
-F 9 "100nF/50V X7R 0603 ceramic capacitor" H 6500 1200 50  0001 C CNN "Note"
+F 9 "100nF/50V X7R 0603 ceramic capacitor" H 6500 1200 50  0001 C CNN "Description"
 F 10 "Seeed OPL" H 6500 1200 50  0001 C CNN "Alt. Supplier"
 F 11 "302010138" H 6500 1200 50  0001 C CNN "Alt. Order Code"
 	1    6500 1200
@@ -581,7 +530,7 @@ F 5 "Multicomp" H 6500 3650 50  0001 C CNN "Manufacturer"
 F 6 "0603" H 6500 3650 50  0001 C CNN "Package"
 F 7 "Farnell" H 6500 3650 50  0001 C CNN "Supplier"
 F 8 "1759122" H 6500 3650 50  0001 C CNN "Order Code"
-F 9 "100nF/50V X7R 0603 ceramic capacitor" H 6500 3650 50  0001 C CNN "Note"
+F 9 "100nF/50V X7R 0603 ceramic capacitor" H 6500 3650 50  0001 C CNN "Description"
 F 10 "Seeed OPL" H 6500 3650 50  0001 C CNN "Alt. Supplier"
 F 11 "302010138" H 6500 3650 50  0001 C CNN "Alt. Order Code"
 	1    6500 3650
@@ -602,7 +551,7 @@ F 5 "Multicomp" H 4050 1900 50  0001 C CNN "Manufacturer"
 F 6 "0603" H 4050 1900 50  0001 C CNN "Package"
 F 7 "Farnell" H 4050 1900 50  0001 C CNN "Supplier"
 F 8 "1759122" H 4050 1900 50  0001 C CNN "Order Code"
-F 9 "100nF/50V X7R 0603 ceramic capacitor" H 4050 1900 50  0001 C CNN "Note"
+F 9 "100nF/50V X7R 0603 ceramic capacitor" H 4050 1900 50  0001 C CNN "Description"
 F 10 "Seeed OPL" H 4050 1900 50  0001 C CNN "Alt. Supplier"
 F 11 "302010138" H 4050 1900 50  0001 C CNN "Alt. Order Code"
 	1    4050 1900
@@ -634,15 +583,15 @@ L Device:R R203
 U 1 1 5D29824E
 P 7100 2450
 F 0 "R203" V 7000 2450 50  0000 C CNN
-F 1 "300R" V 7100 2450 50  0000 C CNN
+F 1 "274R" V 7100 2450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 2450 50  0001 C CNN
 F 3 "~" H 7100 2450 50  0001 C CNN
-F 4 "MCWR04X3000FTL" H 7100 2450 50  0001 C CNN "Part Number"
+F 4 "MCMR04X2740FTL" H 7100 2450 50  0001 C CNN "Part Number"
 F 5 "Multicomp" H 7100 2450 50  0001 C CNN "Manufacturer"
 F 6 "0402" H 7100 2450 50  0001 C CNN "Package"
 F 7 "Farnell" H 7100 2450 50  0001 C CNN "Supplier"
-F 8 "2447155" H 7100 2450 50  0001 C CNN "Order Code"
-F 9 "300Ω/1% 0402 resistor" H 7100 2450 50  0001 C CNN "Note"
+F 8 "2072862" H 7100 2450 50  0001 C CNN "Order Code"
+F 10 "274Ω/1% 0402 resistor" H 7100 2450 50  0001 C CNN "Description"
 	1    7100 2450
 	0    1    1    0   
 $EndComp
@@ -761,7 +710,7 @@ F 7 "Mouser" H 2900 6500 50  0001 C CNN "Supplier"
 F 8 "771-74LVC163PW-T" H 2900 6500 50  0001 C CNN "Order Code"
 F 9 "Digi-Key" H 2900 6500 50  0001 C CNN "Alt. Supplier"
 F 10 "1727-3097-1-ND" H 2900 6500 50  0001 C CNN "Alt. Order Code"
-F 11 "Presettable synchronous 4-bit binary counter with synchronous reset" H 2900 6500 50  0001 C CNN "Note"
+F 11 "Presettable synchronous 4-bit binary counter with synchronous reset" H 2900 6500 50  0001 C CNN "Description"
 	1    2900 6500
 	1    0    0    -1  
 $EndComp
@@ -850,6 +799,12 @@ F 0 "SW201" H 5000 6025 50  0000 C CNN
 F 1 "SW_Rotary1x6" H 5000 5934 50  0000 C CNN
 F 2 "jakub:Nidec_Copal_SS-10-16" H 4900 5700 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2604296.pdf" H 4900 5700 50  0001 C CNN
+F 4 "Nidec Copal" H 5000 5100 50  0001 C CNN "Manufacturer"
+F 5 "SS-10-16NP-LE" H 5000 5100 50  0001 C CNN "Part Number"
+F 6 "Farnell" H 5000 5100 50  0001 C CNN "Supplier"
+F 7 "2854809" H 5000 5100 50  0001 C CNN "Order Code"
+F 8 "6way rotary selection switch" H 5000 5100 50  0001 C CNN "Description"
+F 9 "DIP-8" H 5000 5100 50  0001 C CNN "Package"
 	1    5000 5100
 	-1   0    0    -1  
 $EndComp
@@ -866,7 +821,7 @@ F 5 "Nexperia" H 2900 4700 50  0001 C CNN "Manufacturer"
 F 6 "SC-74A" H 2900 4700 50  0001 C CNN "Package"
 F 7 "Farnell" H 2900 4700 50  0001 C CNN "Supplier"
 F 8 "2445069" H 2900 4700 50  0001 C CNN "Order Code"
-F 9 "Single D-type flip-flop positive-edge trigger" H 2900 4700 50  0001 C CNN "Note"
+F 9 "Single D-type flip-flop positive-edge trigger" H 2900 4700 50  0001 C CNN "Description"
 	1    2900 4700
 	1    0    0    -1  
 $EndComp
@@ -940,40 +895,6 @@ Wire Wire Line
 	4100 4700 4500 4700
 NoConn ~ 3400 6500
 $Comp
-L Device:R R208
-U 1 1 5D174ACB
-P 7100 8050
-F 0 "R208" V 7000 8050 50  0000 C CNN
-F 1 "300R" V 7100 8050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 8050 50  0001 C CNN
-F 3 "~" H 7100 8050 50  0001 C CNN
-F 4 "MCWR04X3000FTL" H 7100 8050 50  0001 C CNN "Part Number"
-F 5 "Multicomp" H 7100 8050 50  0001 C CNN "Manufacturer"
-F 6 "0402" H 7100 8050 50  0001 C CNN "Package"
-F 7 "Farnell" H 7100 8050 50  0001 C CNN "Supplier"
-F 8 "2447155" H 7100 8050 50  0001 C CNN "Order Code"
-F 9 "300Ω/1% 0402 resistor" H 7100 8050 50  0001 C CNN "Note"
-	1    7100 8050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R207
-U 1 1 5D174ADB
-P 7100 7350
-F 0 "R207" V 7000 7350 50  0000 C CNN
-F 1 "300R" V 7100 7350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 7350 50  0001 C CNN
-F 3 "~" H 7100 7350 50  0001 C CNN
-F 4 "MCWR04X3000FTL" H 7100 7350 50  0001 C CNN "Part Number"
-F 5 "Multicomp" H 7100 7350 50  0001 C CNN "Manufacturer"
-F 6 "0402" H 7100 7350 50  0001 C CNN "Package"
-F 7 "Farnell" H 7100 7350 50  0001 C CNN "Supplier"
-F 8 "2447155" H 7100 7350 50  0001 C CNN "Order Code"
-F 9 "300Ω/1% 0402 resistor" H 7100 7350 50  0001 C CNN "Note"
-	1    7100 7350
-	0    1    1    0   
-$EndComp
-$Comp
 L jakub:74AUC2G04 U206
 U 1 1 5D174AEB
 P 6200 7350
@@ -986,7 +907,7 @@ F 5 "Texas Instruments" H 6200 7350 50  0001 C CNN "Manufacturer"
 F 6 "SC-70-6" H 6200 7350 50  0001 C CNN "Package"
 F 7 "Farnell" H 6200 7350 50  0001 C CNN "Supplier"
 F 8 "1606290" H 6200 7350 50  0001 C CNN "Order Code"
-F 9 "Dual Inverter Gate" H 6200 7350 50  0001 C CNN "Note"
+F 9 "Dual Inverter Gate" H 6200 7350 50  0001 C CNN "Description"
 F 10 "Mouser" H 6200 7350 50  0001 C CNN "Alt. Supplier"
 F 11 "595-SN74AUC2G04DCKR" H 6200 7350 50  0001 C CNN "Alt. Order Code"
 	1    6200 7350
@@ -1038,7 +959,7 @@ F 5 "Murata" H 6500 7000 50  0001 C CNN "Manufacturer"
 F 6 "0402" H 6500 7000 50  0001 C CNN "Package"
 F 7 "Farnell" H 6500 7000 50  0001 C CNN "Supplier"
 F 8 "8819556" H 6500 7000 50  0001 C CNN "Order Code"
-F 9 "1nF/50V C0G/NP0 0402 ceramic capacitor" H 6500 7000 50  0001 C CNN "Note"
+F 9 "1nF/50V C0G/NP0 0402 ceramic capacitor" H 6500 7000 50  0001 C CNN "Description"
 	1    6500 7000
 	0    -1   -1   0   
 $EndComp
@@ -1057,7 +978,7 @@ F 5 "Multicomp" H 6500 6100 50  0001 C CNN "Manufacturer"
 F 6 "0603" H 6500 6100 50  0001 C CNN "Package"
 F 7 "Farnell" H 6500 6100 50  0001 C CNN "Supplier"
 F 8 "1759122" H 6500 6100 50  0001 C CNN "Order Code"
-F 9 "100nF/50V X7R 0603 ceramic capacitor" H 6500 6100 50  0001 C CNN "Note"
+F 9 "100nF/50V X7R 0603 ceramic capacitor" H 6500 6100 50  0001 C CNN "Description"
 F 10 "Seeed OPL" H 6500 6100 50  0001 C CNN "Alt. Supplier"
 F 11 "302010138" H 6500 6100 50  0001 C CNN "Alt. Order Code"
 	1    6500 6100
@@ -1180,7 +1101,7 @@ F 5 "Multicomp" H 1400 4700 50  0001 C CNN "Manufacturer"
 F 6 "0603" H 1400 4700 50  0001 C CNN "Package"
 F 7 "Farnell" H 1400 4700 50  0001 C CNN "Supplier"
 F 8 "1759122" H 1400 4700 50  0001 C CNN "Order Code"
-F 9 "100nF/50V X7R 0603 ceramic capacitor" H 1400 4700 50  0001 C CNN "Note"
+F 9 "100nF/50V X7R 0603 ceramic capacitor" H 1400 4700 50  0001 C CNN "Description"
 F 10 "Seeed OPL" H 1400 4700 50  0001 C CNN "Alt. Supplier"
 F 11 "302010138" H 1400 4700 50  0001 C CNN "Alt. Order Code"
 	1    1400 4700
@@ -1199,7 +1120,7 @@ F 5 "Murata" H 1800 4700 50  0001 C CNN "Manufacturer"
 F 6 "0402" H 1800 4700 50  0001 C CNN "Package"
 F 7 "Farnell" H 1800 4700 50  0001 C CNN "Supplier"
 F 8 "8819556" H 1800 4700 50  0001 C CNN "Order Code"
-F 9 "1nF/50V C0G/NP0 0402 ceramic capacitor" H 1800 4700 50  0001 C CNN "Note"
+F 9 "1nF/50V C0G/NP0 0402 ceramic capacitor" H 1800 4700 50  0001 C CNN "Description"
 	1    1800 4700
 	-1   0    0    1   
 $EndComp
@@ -1258,7 +1179,7 @@ F 5 "Multicomp" H 1150 6500 50  0001 C CNN "Manufacturer"
 F 6 "0603" H 1150 6500 50  0001 C CNN "Package"
 F 7 "Farnell" H 1150 6500 50  0001 C CNN "Supplier"
 F 8 "1759122" H 1150 6500 50  0001 C CNN "Order Code"
-F 9 "100nF/50V X7R 0603 ceramic capacitor" H 1150 6500 50  0001 C CNN "Note"
+F 9 "100nF/50V X7R 0603 ceramic capacitor" H 1150 6500 50  0001 C CNN "Description"
 F 10 "Seeed OPL" H 1150 6500 50  0001 C CNN "Alt. Supplier"
 F 11 "302010138" H 1150 6500 50  0001 C CNN "Alt. Order Code"
 	1    1150 6500
@@ -1277,7 +1198,7 @@ F 5 "Murata" H 1550 6500 50  0001 C CNN "Manufacturer"
 F 6 "0402" H 1550 6500 50  0001 C CNN "Package"
 F 7 "Farnell" H 1550 6500 50  0001 C CNN "Supplier"
 F 8 "8819556" H 1550 6500 50  0001 C CNN "Order Code"
-F 9 "1nF/50V C0G/NP0 0402 ceramic capacitor" H 1550 6500 50  0001 C CNN "Note"
+F 9 "1nF/50V C0G/NP0 0402 ceramic capacitor" H 1550 6500 50  0001 C CNN "Description"
 	1    1550 6500
 	-1   0    0    1   
 $EndComp
@@ -1331,7 +1252,7 @@ F 5 "TDK" H 6400 8800 50  0001 C CNN "Manufacturer"
 F 6 "0603" H 6400 8800 50  0001 C CNN "Package"
 F 7 "Farnell" H 6400 8800 50  0001 C CNN "Supplier"
 F 8 "2768390" H 6400 8800 50  0001 C CNN "Order Code"
-F 9 "1μF/16V 0603 X7R capacitor" H 6400 8800 50  0001 C CNN "Note"
+F 9 "1μF/16V 0603 X7R capacitor" H 6400 8800 50  0001 C CNN "Description"
 F 10 "Seeed OPL" H 6400 8800 50  0001 C CNN "Alt. Supplier"
 F 11 "302010139" H 6400 8800 50  0001 C CNN "Alt. Order Code"
 	1    6400 8800
@@ -1354,7 +1275,7 @@ F 5 "Murata" H 6500 1650 50  0001 C CNN "Manufacturer"
 F 6 "0402" H 6500 1650 50  0001 C CNN "Package"
 F 7 "Farnell" H 6500 1650 50  0001 C CNN "Supplier"
 F 8 "8819556" H 6500 1650 50  0001 C CNN "Order Code"
-F 9 "1nF/50V C0G/NP0 0402 ceramic capacitor" H 6500 1650 50  0001 C CNN "Note"
+F 9 "1nF/50V C0G/NP0 0402 ceramic capacitor" H 6500 1650 50  0001 C CNN "Description"
 	1    6500 1650
 	0    -1   -1   0   
 $EndComp
@@ -1397,7 +1318,7 @@ F 5 "Murata" H 6500 6550 50  0001 C CNN "Manufacturer"
 F 6 "0402" H 6500 6550 50  0001 C CNN "Package"
 F 7 "Farnell" H 6500 6550 50  0001 C CNN "Supplier"
 F 8 "8819556" H 6500 6550 50  0001 C CNN "Order Code"
-F 9 "1nF/50V C0G/NP0 0402 ceramic capacitor" H 6500 6550 50  0001 C CNN "Note"
+F 9 "1nF/50V C0G/NP0 0402 ceramic capacitor" H 6500 6550 50  0001 C CNN "Description"
 	1    6500 6550
 	0    -1   -1   0   
 $EndComp
@@ -1436,7 +1357,7 @@ F 5 "Multicomp" H 6500 5650 50  0001 C CNN "Manufacturer"
 F 6 "0603" H 6500 5650 50  0001 C CNN "Package"
 F 7 "Farnell" H 6500 5650 50  0001 C CNN "Supplier"
 F 8 "1759122" H 6500 5650 50  0001 C CNN "Order Code"
-F 9 "100nF/50V X7R 0603 ceramic capacitor" H 6500 5650 50  0001 C CNN "Note"
+F 9 "100nF/50V X7R 0603 ceramic capacitor" H 6500 5650 50  0001 C CNN "Description"
 F 10 "Seeed OPL" H 6500 5650 50  0001 C CNN "Alt. Supplier"
 F 11 "302010138" H 6500 5650 50  0001 C CNN "Alt. Order Code"
 	1    6500 5650
@@ -1455,4 +1376,89 @@ Wire Wire Line
 Wire Wire Line
 	5800 4750 5800 5150
 NoConn ~ 5500 4850
+$Comp
+L Device:R R204
+U 1 1 5D54D252
+P 7100 3150
+F 0 "R204" V 7000 3150 50  0000 C CNN
+F 1 "274R" V 7100 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 3150 50  0001 C CNN
+F 3 "~" H 7100 3150 50  0001 C CNN
+F 4 "MCMR04X2740FTL" H 7100 3150 50  0001 C CNN "Part Number"
+F 5 "Multicomp" H 7100 3150 50  0001 C CNN "Manufacturer"
+F 6 "0402" H 7100 3150 50  0001 C CNN "Package"
+F 7 "Farnell" H 7100 3150 50  0001 C CNN "Supplier"
+F 8 "2072862" H 7100 3150 50  0001 C CNN "Order Code"
+F 10 "274Ω/1% 0402 resistor" H 7100 3150 50  0001 C CNN "Description"
+	1    7100 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R205
+U 1 1 5D54D81F
+P 7100 4450
+F 0 "R205" V 7000 4450 50  0000 C CNN
+F 1 "274R" V 7100 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 4450 50  0001 C CNN
+F 3 "~" H 7100 4450 50  0001 C CNN
+F 4 "MCMR04X2740FTL" H 7100 4450 50  0001 C CNN "Part Number"
+F 5 "Multicomp" H 7100 4450 50  0001 C CNN "Manufacturer"
+F 6 "0402" H 7100 4450 50  0001 C CNN "Package"
+F 7 "Farnell" H 7100 4450 50  0001 C CNN "Supplier"
+F 8 "2072862" H 7100 4450 50  0001 C CNN "Order Code"
+F 10 "274Ω/1% 0402 resistor" H 7100 4450 50  0001 C CNN "Description"
+	1    7100 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R206
+U 1 1 5D54E3F4
+P 7100 5150
+F 0 "R206" V 7000 5150 50  0000 C CNN
+F 1 "274R" V 7100 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 5150 50  0001 C CNN
+F 3 "~" H 7100 5150 50  0001 C CNN
+F 4 "MCMR04X2740FTL" H 7100 5150 50  0001 C CNN "Part Number"
+F 5 "Multicomp" H 7100 5150 50  0001 C CNN "Manufacturer"
+F 6 "0402" H 7100 5150 50  0001 C CNN "Package"
+F 7 "Farnell" H 7100 5150 50  0001 C CNN "Supplier"
+F 8 "2072862" H 7100 5150 50  0001 C CNN "Order Code"
+F 10 "274Ω/1% 0402 resistor" H 7100 5150 50  0001 C CNN "Description"
+	1    7100 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R207
+U 1 1 5D54F025
+P 7100 7350
+F 0 "R207" V 7000 7350 50  0000 C CNN
+F 1 "274R" V 7100 7350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 7350 50  0001 C CNN
+F 3 "~" H 7100 7350 50  0001 C CNN
+F 4 "MCMR04X2740FTL" H 7100 7350 50  0001 C CNN "Part Number"
+F 5 "Multicomp" H 7100 7350 50  0001 C CNN "Manufacturer"
+F 6 "0402" H 7100 7350 50  0001 C CNN "Package"
+F 7 "Farnell" H 7100 7350 50  0001 C CNN "Supplier"
+F 8 "2072862" H 7100 7350 50  0001 C CNN "Order Code"
+F 10 "274Ω/1% 0402 resistor" H 7100 7350 50  0001 C CNN "Description"
+	1    7100 7350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R208
+U 1 1 5D54F870
+P 7100 8050
+F 0 "R208" V 7000 8050 50  0000 C CNN
+F 1 "274R" V 7100 8050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 8050 50  0001 C CNN
+F 3 "~" H 7100 8050 50  0001 C CNN
+F 4 "MCMR04X2740FTL" H 7100 8050 50  0001 C CNN "Part Number"
+F 5 "Multicomp" H 7100 8050 50  0001 C CNN "Manufacturer"
+F 6 "0402" H 7100 8050 50  0001 C CNN "Package"
+F 7 "Farnell" H 7100 8050 50  0001 C CNN "Supplier"
+F 8 "2072862" H 7100 8050 50  0001 C CNN "Order Code"
+F 10 "274Ω/1% 0402 resistor" H 7100 8050 50  0001 C CNN "Description"
+	1    7100 8050
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

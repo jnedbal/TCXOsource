@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:TCXOsource-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
@@ -850,6 +850,12 @@ F 0 "SW201" H 5000 6025 50  0000 C CNN
 F 1 "SW_Rotary1x6" H 5000 5934 50  0000 C CNN
 F 2 "jakub:Nidec_Copal_SS-10-16" H 4900 5700 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2604296.pdf" H 4900 5700 50  0001 C CNN
+F 4 "Nidec Copal" H 5000 5100 50  0001 C CNN "Manufacturer"
+F 5 "SS-10-16NP-LE" H 5000 5100 50  0001 C CNN "Part Number"
+F 6 "Farnell" H 5000 5100 50  0001 C CNN "Supplier"
+F 7 "2854809" H 5000 5100 50  0001 C CNN "Order Code"
+F 8 "6way rotary selection switch" H 5000 5100 50  0001 C CNN "Description"
+F 9 "DIP-8" H 5000 5100 50  0001 C CNN "Package"
 	1    5000 5100
 	-1   0    0    -1  
 $EndComp
